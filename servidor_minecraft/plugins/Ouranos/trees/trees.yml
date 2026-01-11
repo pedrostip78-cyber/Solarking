@@ -1,0 +1,72 @@
+ouranos:
+  PineMountain:
+    pine1: 0.5
+    pine2: 0.5
+    pine3: 0.5
+    pine4: 0.5
+  DeadForest:
+    dead_tree1: 0.5
+    dead_tree2: 0.5
+    dead_tree3: 0.5
+    dead_tree4: 0.5
+  Swamp:
+    big_swamp_tree: 0.05
+    swamp_tree1: 0.5
+    swamp_tree2: 0.5
+    swamp_tree3: 0.5
+  Plains:
+    plain1: 0.5
+    plain2: 0.5
+  Tropical:
+    big_palm: 0.05
+    big_palm2: 0.05
+    palm1: 0.5
+    palm2: 0.5
+  PineForest:
+    pine1: 0.5
+    pine2: 0.5
+    pine3: 0.5
+    pine4: 0.5
+    pine5: 0.5
+  SakuraPlains:
+    sakura1: 0.5
+    sakura2: 0.5
+    sakura3: 0.5
+    sakura4: 0.5
+  SnowyForest:
+    snow_pine: 0.5
+    snow_pine2: 0.5
+    snow_pine3: 0.5
+    snow_pine4: 0.5
+    snow_pine5: 0.5
+  Jungle:
+    jungle1: 0.5
+    jungle2: 0.5
+    jungle3: 0.5
+    jungle4: 0.5
+    jungle5: 0.5
+  IceCrystalPlains:
+    ice_rock1: 0.5
+    ice_rock2: 0.5
+    ice_rock3: 0.5
+    ice_rock4: 0.5
+    ice_rock5: 0.5
+  RockyPlains:
+    tree1: 0.5
+    tree2: 0.5
+    tree3: 0.5
+    tree4: 0.5
+  SnowyPlains:
+    snow_tree1: 0.5
+    snow_tree2: 0.5
+    snow_tree3: 0.5
+  FloweryMountain:
+    oak1: 0.5
+    oak2: 0.5
+  Savanna:
+    savanna1: 0.5
+    savanna2: 0.5
+    savanna3: 0.5
+    savanna4: 0.5
+    savanna5: 0.5
+    savanna6: 0.5

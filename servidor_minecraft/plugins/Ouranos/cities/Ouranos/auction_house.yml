@@ -1,0 +1,13 @@
+# ######################
+# Build Configuration #
+# ######################
+
+# The NPCs and mobs in the build
+
+npcs:
+  npc_1: ouranos:Auctioneer
+
+mobs: []
+
+# The probability to place the build in one city
+probability: 1.0

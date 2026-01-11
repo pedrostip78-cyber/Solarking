@@ -1,0 +1,1520 @@
+[00:56:21] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[00:56:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-117-ver/1.21.10@df4b668 (2025-11-30T22:37:28Z) for Minecraft 1.21.10
+[00:56:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:56:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 51 plugins
+[00:56:35] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (4):
+ - AdvancedKits (1.21.29), EconomyShopGUI (6.16.2), FancyHolograms (2.9.0), FancyNpcs (2.9.0)
+[00:56:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (47):
+ - AdvancedEnchantments (9.22.0), AnimaBossBar (${project.version}), AuraSkills (2.3.10), AxRewards (3.7.0), BattlePass (5.0.3), BlockRegen (2.4), CommandTimer (8.16.3), DeepVoid (2.22.0), EcoArmor (8.78.0), EcoCrates (1.13.8), EcoItems (5.66.0), EcoJobs (3.72.0), EcoMobs (10.24.0), EcoPets (2.77.1), EconomyX (2.8.3-FINAL), EliteMobs (9.6.1), Essentials (2.22.0-dev+49-000e6c5), EssentialsChat (2.22.0-dev+49-000e6c5), EssentialsSpawn (2.22.0-dev+49-000e6c5), GHolo (2.2.6), InfiniteGUI (1.1.10), ItemEdit (3.7.8), LuckPerms (5.5.0), Multiverse-Core (5.3.0), Ouranos (1.1.11), PhoenixCrates (4.2.3), PinataParty (2.69.3), PlaceholderAPI (2.11.6), ProtectionStones (2.10.5), ProtocolLib (5.4.0), RavenWelcome (1.0), RealScoreboard (1.5.7), Shopkeepers (2.25.0), Simple_RTP (1.0.2-BETA), SkinsRestorer (15.9.2), Skulls (3.28.0), SpawnerMeta (25.5), TAB (5.4.0), Talismans (6.77.0), Vault (1.7.3-b131), VoidTeleport (2.4.5), WorldEdit (7.3.18+7298-4383852), WorldGuard (7.0.14+2339-43997ec), XVaults (2.1.2), eco (6.77.2), zAuctionHouseV3 (3.2.4.0), zMenu (1.1.0.7)
+[00:56:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:56:47] [ServerMain/INFO]: Loaded 1461 recipes
+[00:56:47] [ServerMain/INFO]: Loaded 1574 advancements
+[00:56:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:56:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 705.7ms
+[00:56:48] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[00:56:48] [Server thread/INFO]: Loading properties
+[00:56:48] [Server thread/INFO]: This server is running Paper version 1.21.10-117-ver/1.21.10@df4b668 (2025-11-30T22:37:28Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[00:56:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:56:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:56:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:56:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:56:49] [Server thread/INFO]: Default game type: SURVIVAL
+[00:56:49] [Server thread/INFO]: Generating keypair
+[00:56:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:56:49] [Server thread/INFO]: Using epoll channel type
+[00:56:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:56:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[00:56:50] [Server thread/WARN]: [FancyAnalytics] Failed to move old config file: plugins/FancyAnalytics/config.json
+[00:56:51] [Server thread/INFO]: [eco] Initializing eco
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
+[00:56:52] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
+[00:56:53] [Server thread/INFO]: [SpigotLibraryLoader] [zMenu] Loading 1 libraries... please wait
+[00:56:53] [Server thread/INFO]: [SpigotLibraryLoader] [zMenu] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.6/mariadb-java-client-3.5.6.jar
+[00:56:53] [Server thread/INFO]: [EcoItems] Initializing EcoItems
+[00:56:53] [Server thread/INFO]: [EcoJobs] Initializing EcoJobs
+[00:56:53] [Server thread/INFO]: [SpigotLibraryLoader] [zAuctionHouseV3] Loading 1 libraries... please wait
+[00:56:53] [Server thread/INFO]: [SpigotLibraryLoader] [zAuctionHouseV3] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.6/mariadb-java-client-3.5.6.jar
+[00:56:55] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[00:57:08] [Server thread/WARN]: Legacy plugin EconomyX v2.8.3-FINAL does not specify an api-version.
+[00:57:08] [Server thread/INFO]: [EcoMobs] Initializing EcoMobs
+[00:57:10] [Server thread/WARN]: Legacy plugin EcoPets v2.77.1 does not specify an api-version.
+[00:57:10] [Server thread/INFO]: [EcoPets] Initializing EcoPets
+[00:57:10] [Server thread/INFO]: [EcoCrates] Initializing EcoCrates
+[00:57:10] [Server thread/WARN]: Legacy plugin Talismans v6.77.0 does not specify an api-version.
+[00:57:10] [Server thread/INFO]: [Talismans] Initializing Talismans
+[00:57:10] [Server thread/WARN]: Legacy plugin EcoArmor v8.78.0 does not specify an api-version.
+[00:57:10] [Server thread/INFO]: [EcoArmor] Initializing EcoArmor
+[00:57:10] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loading 4 libraries... please wait
+[00:57:10] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[00:57:10] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
+[00:57:10] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[00:57:10] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/com/j256/ormlite/ormlite-jdbc/6.1/ormlite-jdbc-6.1.jar
+[00:57:10] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.jar
+[00:57:10] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library /workspaces/Solarking/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.jar
+[00:57:10] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[00:57:12] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[00:57:12] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[00:57:12] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.18+7298-4383852
+[00:57:13] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@60c3bdf1]
+[00:57:13] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.9.0
+[00:57:13] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[00:57:13] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[00:57:13] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[00:57:13] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.10) has not yet been tested! Proceed with caution.
+[00:57:13] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.9.0
+[00:57:13] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+49-000e6c5
+[00:57:13] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.9.0
+[00:57:13] [Server thread/INFO]: [GHolo] Loading server plugin GHolo v2.2.6
+[00:57:14] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.5
+[00:57:14] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.10
+[00:57:14] [Server thread/INFO]: [eco] Loading server plugin eco v6.77.2
+[00:57:14] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.8
+[00:57:14] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.6.1
+[00:57:14] [Server thread/INFO]: [EliteMobs] MagmaCore v1.13-SNAPSHOT initialized!
+[00:57:14] [Server thread/INFO]: [EliteMobs] Registered /logify command
+[00:57:14] [Server thread/INFO]: [EliteMobs]  WorldGuard detected.
+[00:57:14] [Server thread/INFO]: [Skulls] Loading server plugin Skulls v3.28.0
+[00:57:14] [Server thread/WARN]: [Skulls] Could not add URL to classpath using any method: file:/workspaces/Solarking/servidor_minecraft/plugins/Skulls/libs/sqlite-jdbc-3.44.1.0.jar
+[00:57:14] [Server thread/INFO]: [Skulls] Loaded dependency: org.xerial:sqlite-jdbc:3.44.1.0
+[00:57:14] [Server thread/WARN]: [Skulls] Could not add URL to classpath using any method: file:/workspaces/Solarking/servidor_minecraft/plugins/Skulls/libs/jedis-5.1.0.jar
+[00:57:14] [Server thread/INFO]: [Skulls] Loaded dependency: redis.clients:jedis:5.1.0
+[00:57:14] [Server thread/INFO]: [AdvancedEnchantments] Loading server plugin AdvancedEnchantments v9.22.0
+[00:57:14] [Server thread/INFO]: [zMenu] Loading server plugin zMenu v1.1.0.7
+[00:57:14] [Server thread/INFO]: [SpawnerMeta] Loading server plugin SpawnerMeta v25.5
+[00:57:14] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+49-000e6c5
+[00:57:14] [Server thread/INFO]: [EcoItems] Loading server plugin EcoItems v5.66.0
+[00:57:14] [Server thread/INFO]: [libreforge] Initializing libreforge
+[00:57:14] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.79.0
+[00:57:14] [Server thread/INFO]: [AdvancedKits] Loading server plugin AdvancedKits v1.21.29
+[00:57:14] [Server thread/INFO]: [EcoJobs] Loading server plugin EcoJobs v3.72.0
+[00:57:14] [Server thread/INFO]: [VoidTeleport] Loading server plugin VoidTeleport v2.4.5
+[00:57:14] [Server thread/INFO]: [DeepVoid] Loading server plugin DeepVoid v2.22.0
+[00:57:14] [Server thread/INFO]: [zAuctionHouseV3] Loading server plugin zAuctionHouseV3 v3.2.4.0
+[00:57:14] [Server thread/INFO]: [AxRewards] Loading server plugin AxRewards v3.7.0
+[00:57:14] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.16.2
+[00:57:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.2
+[00:57:14] [Server thread/INFO]: [InfiniteGUI] Loading server plugin InfiniteGUI v1.1.10
+[00:57:14] [Server thread/INFO]: [EconomyX] Loading server plugin EconomyX v2.8.3-FINAL
+[00:57:14] [Server thread/INFO]: [PinataParty] Loading server plugin PinataParty v2.69.3
+[00:57:14] [Server thread/INFO]: [RavenWelcome] Loading server plugin RavenWelcome v1.0
+[00:57:14] [Server thread/INFO]: [BlockRegen] Loading server plugin BlockRegen v2.4
+[00:57:14] [Server thread/INFO]: [EcoMobs] Loading server plugin EcoMobs v10.24.0
+[00:57:14] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+49-000e6c5
+[00:57:14] [Server thread/INFO]: [PhoenixCrates] Loading server plugin PhoenixCrates v4.2.3
+[00:57:14] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.25.0
+[00:57:15] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (1003 ms).
+[00:57:15] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R8_paper
+[00:57:15] [Server thread/INFO]: [Shopkeepers] Loading config.
+[00:57:15] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[00:57:15] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[00:57:15] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[00:57:15] [Server thread/INFO]: [CommandTimer] Loading server plugin CommandTimer v8.16.3
+[00:57:15] [Server thread/INFO]: [Simple_RTP] Loading server plugin Simple_RTP v1.0.2-BETA
+[00:57:15] [Server thread/INFO]: [Ouranos] Loading server plugin Ouranos v1.1.11
+[00:57:15] [Server thread/INFO]: [RealScoreboard] Loading server plugin RealScoreboard v1.5.7
+[00:57:15] [Server thread/INFO]: [XVaults] Loading server plugin XVaults v2.1.2
+[00:57:15] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[00:57:15] [Server thread/INFO]: [EcoPets] Loading server plugin EcoPets v2.77.1
+[00:57:15] [Server thread/INFO]: [EcoCrates] Loading server plugin EcoCrates v1.13.8
+[00:57:15] [Server thread/INFO]: [Talismans] Loading server plugin Talismans v6.77.0
+[00:57:16] [Server thread/INFO]: [EcoArmor] Loading server plugin EcoArmor v8.78.0
+[00:57:16] [Server thread/INFO]: [BattlePass] Loading server plugin BattlePass v5.0.3
+[00:57:16] [Server thread/INFO]: [AnimaBossBar] Loading server plugin AnimaBossBar v${project.version}
+[00:57:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:57:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[00:57:17] [Server thread/INFO]:         __    
+[00:57:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[00:57:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:57:17] [Server thread/INFO]: 
+[00:57:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:57:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:57:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:57:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:57:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3266ms)
+[00:57:19] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:57:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:57:19] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:57:19] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:57:19] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:57:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.18+7298-4383852
+[00:57:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:57:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[00:57:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
+[00:57:23] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[00:57:23] [Server thread/INFO]: [eco] Enabling eco v6.77.2
+[00:57:23] [Server thread/INFO]: [eco] Loading eco
+[00:57:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: eco [6.77.2]
+[00:57:23] [Server thread/INFO]: [eco] Loaded integrations: EconomyShopGUI, Essentials, Vault, FancyHolograms, PlaceholderAPI, WorldGuard
+[00:57:23] [Server thread/INFO]: [eco] Scanning for conflicts...
+[00:57:23] [Server thread/INFO]: [eco] No conflicts found!
+[00:57:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.2
+[00:57:25] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.10.
+[00:57:26] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:57:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.2]
+[00:57:26] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[00:57:26] [Server thread/INFO]: [Ouranos] Enabling Ouranos v1.1.11
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.2
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 823b90a
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.9.3) is available! Downloading update...
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 503ms
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[00:57:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[00:57:43] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[00:57:44] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@7c2857ab
+[00:57:44] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[00:57:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:57:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:57:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:57:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:57:44] [Server thread/INFO]: Preparing level "world"
+[00:57:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[00:57:46] [Server thread/INFO]: Preparing spawn area: 100%
+[00:57:46] [Server thread/INFO]: Prepared spawn area in 4 ms
+[00:57:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[00:57:46] [Server thread/INFO]: Prepared spawn area in 2 ms
+[00:57:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[00:57:46] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:57:46] [Server thread/INFO]: Done preparing level "world" (2.050s)
+[00:57:46] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[00:57:46] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:57:46] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.9.0
+[00:57:46] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[00:57:47] [Thread-19/WARN]: [FancyNpcs] 
+-------------------------------------------------------
+You are not using the latest version of the FancyNpcs plugin.
+Please update to the newest version (2.9.1).
+https://modrinth.com/plugin/FancyNpcs
+-------------------------------------------------------
+
+[00:57:47] [FancyLogger/INFO]: [FancyNpcs] (Thread-19) WARN: You are not using the latest version of the FancyNpcs plugin.
+[00:57:47] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.9.0) has been enabled.
+[00:57:47] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[00:57:48] [Server thread/INFO]: Could not set generator for world 'spawn2': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:spawn2'...
+[00:57:49] [Server thread/INFO]: Preparing spawn area: 100%
+[00:57:49] [Server thread/INFO]: Prepared spawn area in 4 ms
+[00:57:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:world2'...
+[00:57:49] [Server thread/INFO]: Prepared spawn area in 2 ms
+[00:57:49] [Server thread/INFO]: Could not set generator for world 'dungeon2': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:dungeon2'...
+[00:57:49] [Server thread/INFO]: Prepared spawn area in 2 ms
+[00:57:49] [Server thread/INFO]: Could not set generator for world 'minasranks': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:minasranks'...
+[00:57:49] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:57:49] [Server thread/INFO]: Could not set generator for world 'koth': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:koth'...
+[00:57:49] [Server thread/INFO]: Preparing spawn area: 100%
+[00:57:49] [Server thread/INFO]: Prepared spawn area in 5 ms
+[00:57:49] [Server thread/INFO]: Could not set generator for world 'arenapvp': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:arenapvp'...
+[00:57:50] [Server thread/INFO]: Prepared spawn area in 3 ms
+[00:57:50] [Server thread/INFO]: Could not set generator for world 'dungeon': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:dungeon'...
+[00:57:50] [Server thread/INFO]: Preparing spawn area: 100%
+[00:57:50] [Server thread/INFO]: Prepared spawn area in 2 ms
+[00:57:50] [Server thread/INFO]: Could not set generator for world 'lobby': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:lobby'...
+[00:57:50] [Server thread/INFO]: Preparing spawn area: 100%
+[00:57:50] [Server thread/INFO]: Prepared spawn area in 6 ms
+[00:57:50] [Server thread/INFO]: Could not set generator for world 'spawn': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:spawn'...
+[00:57:50] [Server thread/INFO]: Prepared spawn area in 0 ms
+[00:57:50] [Server thread/INFO]: Could not set generator for world 'minas': Plugin 'DeepVoid v2.22.0' is not enabled
+[00:57:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:minas'...
+[00:57:50] [Server thread/INFO]: Preparing spawn area: 100%
+[00:57:50] [Server thread/INFO]: Prepared spawn area in 4 ms
+[00:57:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.3.0]
+[00:57:51] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[00:57:51] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[00:57:51] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[00:57:51] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn2) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn2) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn2) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn2) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn2'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world2) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world2) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world2) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (world2) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world2'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon2) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon2) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon2) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon2) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'dungeon2'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minasranks) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minasranks) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minasranks) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minasranks) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'minasranks'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (koth) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (koth) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (koth) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (koth) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'koth'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (arenapvp) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (arenapvp) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (arenapvp) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (arenapvp) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'arenapvp'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (dungeon) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'dungeon'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minas) TNT ignition is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minas) Lighters are PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minas) Lava fire is PERMITTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] (minas) Fire spread is UNRESTRICTED.
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'minas'
+[00:57:52] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:57:53] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.9.0
+[00:57:53] [Server thread/WARN]: [FancyAnalytics] Failed to move old config file: plugins/FancyAnalytics/config.json
+[00:57:53] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.9.0
+[00:57:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+49-000e6c5
+[00:57:53] [FancyLogger/INFO]: [FancyHolograms] (Thread-21) WARN: 
+[00:57:53] [FancyLogger/INFO]: -------------------------------------------------------
+[00:57:53] [FancyLogger/INFO]: You are not using the latest version of the FancyHolograms plugin.
+[00:57:53] [FancyLogger/INFO]: Please update to the newest version (2.9.1).
+[00:57:53] [FancyLogger/INFO]: https://modrinth.com/plugin/FancyHolograms
+[00:57:53] [FancyLogger/INFO]: -------------------------------------------------------
+[00:57:53] [FancyLogger/INFO]: 
+[00:57:55] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:57:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:57:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:57:55] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:57:55] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:57:55] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:57:56] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:57:57] [Server thread/INFO]: [Essentials] Loaded 46309 items from items.json.
+[00:57:57] [Server thread/INFO]: [Essentials] Using locale en
+[00:57:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:57:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:57:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:57:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[00:57:58] [Server thread/INFO]: [GHolo] Enabling GHolo v2.2.6
+[00:57:58] [Server thread/INFO]: [GHolo] The plugin was successfully enabled.
+[00:57:58] [Server thread/INFO]: [GHolo] Link with PlaceholderAPI successful!
+[00:57:58] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.5
+[00:57:58] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[00:57:58] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[00:57:58] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
+[00:57:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.10.5]
+[00:57:58] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[00:57:59] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[00:57:59] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[00:57:59] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[00:57:59] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[00:58:00] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[00:58:00] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[00:58:00] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.10
+[00:58:03] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[00:58:04] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[00:58:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.10]
+[00:58:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.10]
+[00:58:04] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
+[00:58:04] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[00:58:04] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[00:58:04] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
+[00:58:04] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 89 ms
+[00:58:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.10! Trying to find NMS support
+[00:58:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R6' loaded!
+[00:58:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[00:58:04] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[00:58:04] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[00:58:05] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.8
+[00:58:05] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[00:58:05] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[00:58:06] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[00:58:06] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[00:58:06] [Server thread/INFO]: [ItemEdit] placeholders:
+[00:58:06] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[00:58:06] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[00:58:06] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[00:58:06] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[00:58:06] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[00:58:06] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[00:58:06] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[00:58:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[00:58:06] [Server thread/INFO]: [ItemEdit] # Enabled (took 527 ms)
+[00:58:06] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.6.1
+[00:58:06] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[00:58:06] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[00:58:06] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[00:58:06] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[00:58:06] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[00:58:06] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[00:58:06] [Server thread/INFO]: By MagmaGuy - v. 9.6.1
+[00:58:06] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R6
+[00:58:06] [Server thread/INFO]: [EliteMobs] Language set to English - using plugin defaults
+[00:58:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 254 ms to scan 1 urls, producing 1 keys and 60 values
+[00:58:07] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 17 ms to scan 1 urls, producing 1 keys and 16 values
+[00:58:09] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 25 ms to scan 1 urls, producing 1 keys and 71 values
+[00:58:09] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 62 ms to scan 1 urls, producing 10 keys and 220 values
+[00:58:09] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 15 values
+[00:58:09] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is enabled!
+[00:58:09] [Server thread/INFO]: [EliteMobs] [(EliteMobs] Vault detected.
+[00:58:10] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[00:58:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: elitemobs [9.6.1]
+[00:58:10] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 16 ms to scan 1 urls, producing 1 keys and 116 values
+[00:58:16] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 19 ms to scan 1 urls, producing 1 keys and 74 values
+[00:58:16] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 56 ms to scan 1 urls, producing 1 keys and 134 values
+[00:58:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 1 values
+[00:58:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 13 ms to scan 1 urls, producing 1 keys and 34 values
+[00:58:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 35 ms to scan 1 urls, producing 1 keys and 24 values
+[00:58:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 1 values
+[00:58:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 12 ms to scan 1 urls, producing 1 keys and 8 values
+[00:58:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 18 ms to scan 1 urls, producing 1 keys and 4 values
+[00:58:17] [Server thread/INFO]: [Skulls] Enabling Skulls v3.28.0
+[00:58:17] [Server thread/INFO]:  
+[00:58:17] [Server thread/INFO]: =============================
+[00:58:17] [Server thread/INFO]: Skulls v3.28.0 by Tweetzy
+[00:58:17] [Server thread/INFO]: Developer: Kiran Hart
+[00:58:18] [Server thread/INFO]: [Skulls] Initializing SQLite connection pool for Skulls
+[00:58:18] [Server thread/INFO]: [ca.tweetzy.skulls.flight.third_party.com.zaxxer.HikariDataSource] HikariPool-1 - Starting...
+[00:58:18] [Server thread/INFO]: [ca.tweetzy.skulls.flight.third_party.com.zaxxer.HikariDataSource] HikariPool-1 - Start completed.
+[00:58:18] [Server thread/INFO]: [Skulls] SQLite connection pool initialized successfully
+[00:58:18] [Server thread/INFO]: Skulls » Setting up vault economy provider
+[00:58:19] [Server thread/INFO]: [FlightCore] Enabling metrics for Skulls
+[00:58:19] [Server thread/INFO]: =============================
+[00:58:19] [Server thread/INFO]:  
+[00:58:19] [Server thread/INFO]: [AdvancedEnchantments] Enabling AdvancedEnchantments v9.22.0
+[00:58:19] [Server thread/WARN]: You are using invalid version of Minecraft [1.21.10-R0.1-SNAPSHOT]! Disabling...
+[00:58:19] [Server thread/INFO]: [AdvancedEnchantments] Loading Minecraft Version Unknown
+[00:58:20] [Server thread/INFO]: [AdvancedEnchantments] Loaded 7 armor sets.
+[00:58:20] [Server thread/INFO]: [AdvancedEnchantments] Loaded 5 weapons.
+[00:58:21] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into economy plugin (Vault)
+[00:58:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: advancedenchantments [1.0.0]
+[00:58:21] [Server thread/INFO]: [zMenu] Enabling zMenu v1.1.0.7
+[00:58:22] [Server thread/INFO]: [zMenu v1.1.0.7] === ENABLE START ===
+[00:58:22] [Server thread/INFO]: [zMenu v1.1.0.7] Plugin Version V1.1.0.7
+[00:58:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: zmenu [1.1.0.7]
+[00:58:22] [Server thread/INFO]: [zMenu] The database connection is valid ! (SQLITE)
+[00:58:22] [Server thread/INFO]: [zMenu] Use ComponentMeta
+[00:58:22] [Server thread/INFO]: [zMenu v1.1.0.7] Paper server detected, loading Dialogs support
+[00:58:22] [Server thread/INFO]: [zMenu v1.1.0.7] zMenu Config
+[00:58:22] [Server thread/INFO]: [zMenu] Registered Eco material loader
+[00:58:22] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[00:58:22] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[00:58:22] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/INVENTORY-WARPS.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/recompensas.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/website/inventories.yml loaded successfully !
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/dialogs/confirmation-dialog.yml loaded successfully!
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/dialogs/multi_action-dialog.yml loaded successfully!
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/dialogs/default-dialog.yml loaded successfully!
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zMenu/dialogs/server_link-dialog.yml loaded successfully!
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] Command /basic_command successfully register.
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] Command /advanced_command successfully register.
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] Command /pro_command successfully register.
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] Command /openbook successfully register.
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] Command /punish successfully register.
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] 
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] 
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] Loading 6 commands
+[00:58:23] [Server thread/INFO]: [zMenu v1.1.0.7] === ENABLE DONE (1759ms) ===
+[00:58:23] [Server thread/INFO]: [SpawnerMeta] Enabling SpawnerMeta v25.5
+[00:58:23] [Server thread/INFO]: [SpawnerMeta v25.4] enabled!
+[00:58:23] [Server thread/INFO]: [SpawnerMeta] Vault has been found, economy enabled!
+[00:58:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+49-000e6c5
+[00:58:24] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[00:58:24] [Server thread/INFO]: [EcoItems] Enabling EcoItems v5.66.0
+[00:58:24] [Server thread/INFO]: [EcoItems] Loading EcoItems
+[00:58:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ecoitems [5.66.0]
+[00:58:24] [Server thread/INFO]: [AdvancedKits] Enabling AdvancedKits v1.21.29
+[00:58:24] [Server thread/INFO]: [AdvancedKits] Bootstrapping runtime (libraries & configuration)...
+[00:58:25] [Server thread/INFO]: [AdvancedKits] Loading library boosted-yaml
+[00:58:25] [Server thread/INFO]: [AdvancedKits] Loading library YamlAssist
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library gson
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library XSeries
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library fast-uuid
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library bstats-bukkit
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library bstats-base
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library adventure-api
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library adventure-key
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library examination-api
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library examination-string
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library adventure-text-serializer-legacy
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Loading library adventure-text-minimessage
+[00:58:26] [Server thread/INFO]: [AdvancedKits] Bootstrap completed successfully in 1,690 ms!
+[00:58:26] [Server thread/INFO]: [AdvancedKits] [NBTAPI] Found Minecraft: 1.21.10! Trying to find NMS support
+[00:58:26] [Server thread/INFO]: [AdvancedKits] [NBTAPI] NMS support 'MC1_21_R6' loaded!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] [NBTAPI] Using the plugin 'AdvancedKits' to create a bStats instance!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully connected to the YAML database!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully registered economy with ID EXP!
+[00:58:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: advancedkits [1.21.29]
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully hooked into PlaceholderAPI (EXPANSION)!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully hooked into PlaceholderAPI (PLACEHOLDER)!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully registered economy with ID VAULT!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully hooked into Vault (ECONOMY) [EssentialsX Economy]!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully hooked into ItemEdit (ITEM)!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully registered economy with ID ESSENTIALS!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully hooked into Essentials (ECONOMY)!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully hooked into Skulls (ITEM)!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully registered economy with ID ELITEMOBS!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Successfully hooked into EliteMobs (ECONOMY)!
+[00:58:27] [Server thread/INFO]: [AdvancedKits] Enabled asynchronous tab completion support with PaperSpigot!
+[00:58:28] [Server thread/INFO]: [AdvancedKits] Successfully enabled in 3,359 ms!
+[00:58:28] [/INFO]: [AdvancedKits] There is a new update available.
+[00:58:28] [/INFO]: [AdvancedKits] Current installed version: v1.21.29
+[00:58:28] [/INFO]: [AdvancedKits] Latest available version: v1.22.3
+[00:58:28] [/INFO]: [AdvancedKits] Download link: https://www.spigotmc.org/resources/90054/
+[00:58:28] [Server thread/INFO]: [EcoJobs] Enabling EcoJobs v3.72.0
+[00:58:28] [Server thread/INFO]: [EcoJobs] Loading EcoJobs
+[00:58:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ecojobs [3.72.0]
+[00:58:29] [Server thread/INFO]: [VoidTeleport] Enabling VoidTeleport v2.4.5
+[00:58:29] [Server thread/INFO]: 
+
+                ===================================================
+                                    VoidTeleport
+                ===================================================
+
+                              Current version: 2.4.5
+                        You are running the latest version!
+
+                ===================================================
+
+[00:58:29] [Server thread/INFO]: [VoidTeleport] Developed by EndlessGames.
+[00:58:29] [Server thread/INFO]: [DeepVoid] Enabling DeepVoid v2.22.0
+[00:58:29] [Server thread/INFO]: [DeepVoid] Database tables initialized
+[00:58:29] [Server thread/INFO]: [DeepVoid] Loaded 3 managed worlds and 0 DeepVoid worlds from database
+[00:58:29] [Server thread/INFO]: [DeepVoid] Saved world data to database
+[00:58:29] [Server thread/INFO]: [DeepVoid] Saved world data to database
+[00:58:29] [Server thread/INFO]: [DeepVoid] DeepVoid successfully enabled.
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3] Enabling zAuctionHouseV3 v3.2.4.0
+[00:58:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: zauctionhouse [3.2.4.0]
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] === ENABLE START ===
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Plugin Version V3.2.4.0
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading of 4 price items
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] /workspaces/Solarking/servidor_minecraft/plugins/zAuctionHouseV3/blacklistplayers.json loaded successfully !
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loaded config.yml
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading of 3 tax items
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loaded 4 blacklist items
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loaded 0 whitelist items
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading the Examples category with 4 materials
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading the Blocks category with 1166 materials
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading the Potions category with 17 materials
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading the Tools category with 20 materials
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading the Weapons category with 13 materials
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading 3 inventories
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading 0 commands
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3] Using SQLITE for storage
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Load SQL...
+[00:58:29] [Server thread/INFO]: [zAuctionHouseV3] /workspaces/Solarking/servidor_minecraft/plugins/zAuctionHouseV3/logs/2026-01-11.log has been successfully created !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/patterns/pagination.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/patterns/auction.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/patterns/back.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/patterns/decoration.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/category.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/economy.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/buyconfirminventory.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/categories.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/sellshow.yml loaded successfully !
+[00:58:29] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/adminremove.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/buying.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/removeconfirm.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/search.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/expire.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/auction.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/buyconfirm.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/sell.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/show.yml loaded successfully !
+[00:58:30] [Server thread/INFO]: [zMenu v1.1.0.7] plugins/zAuctionHouseV3/inventories/items.yml loaded successfully !
+[00:58:30] [Server thread/WARN]: [CurrenciesAPI] The framework is not up to date, the latest version is 1.0.11
+[00:58:30] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Register VAULT economy with name vault
+[00:58:30] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] Register ProtocolLib implementation
+[00:58:30] [Server thread/INFO]: [zAuctionHouseV3 v3.2.4.0] === ENABLE DONE (1131ms) ===
+[00:58:30] [Server thread/INFO]: [AxRewards] Enabling AxRewards v3.7.0
+[00:58:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: axrewards [1.0.0]
+[00:58:31] [Server thread/INFO]: [AxRewards] Hooked into PlaceholderAPI!
+[00:58:32] [Server thread/INFO]: [AxRewards] Loaded plugin! Using H2 database to store data!
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.16.2
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.10...
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: SpawnerMeta found, integrating...
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using SpawnerMeta as spawner provider.
+[00:58:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[00:58:32] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[00:58:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 2991ms to complete
+[00:58:35] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.16.2 but found v6.16.3.
+[00:58:35] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[00:58:35] [Server thread/INFO]: [InfiniteGUI] Enabling InfiniteGUI v1.1.10
+[00:58:35] [Server thread/INFO]: [InfiniteGUI]    
+   ####   ###  ##  ### ###    ####   ###  ##    ####   #### ##  ### ###            ## ##   ##  ###    ####   
+    ##      ## ##   ##  ##     ##      ## ##     ##    # ## ##   ##  ##           ##   ##  ##   ##     ##    
+    ##     # ## #   ##         ##     # ## #     ##      ##      ##               ##       ##   ##     ##    
+    ##     ## ##    ## ##      ##     ## ##      ##      ##      ## ##            ##  ###  ##   ##     ##    
+    ##     ##  ##   ##         ##     ##  ##     ##      ##      ##               ##   ##  ##   ##     ##    
+    ##     ##  ##   ##         ##     ##  ##     ##      ##      ##  ##           ##   ##  ##   ##     ##    
+   ####   ###  ##  ####       ####   ###  ##    ####    ####    ### ###            ## ##    ## ##     ####
+ 
+[00:58:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.10! Trying to find NMS support
+[00:58:35] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(1.21.10-R0.1-SNAPSHOT) is not supported by this NBT-API Version(2.13.1) located in InfiniteGUI. The NBT-API will try to work as good as it can! Some functions may not work!
+[00:58:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'InfiniteGUI' to create a bStats instance!
+[00:58:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: infinitegui [1.1.1]
+[00:58:35] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:58:35] [Server thread/INFO]: [EconomyX] Enabling EconomyX v2.8.3-FINAL*
+[00:58:35] [Server thread/INFO]: [EconomyX] Vault found, Economy has been registered.
+[00:58:35] [Server thread/INFO]: [PinataParty] Enabling PinataParty v2.69.3
+[00:58:36] [Server thread/INFO]: [PinataParty] Loading data...
+[00:58:36] [Server thread/INFO]: [PinataParty] Registering hooks...
+[00:58:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pinataparty [2.69.3]
+[00:58:36] [Server thread/INFO]: [PinataParty] Hooked into PlaceholderAPI
+[00:58:36] [Server thread/INFO]: [PinataParty] NuVotifier or VotifierPlus not installed! Download and install it from here: https://www.spigotmc.org/resources/13449/ or https://www.spigotmc.org/resources/74040/
+[00:58:36] [Server thread/INFO]: [PinataParty] Hooked into Vault
+[00:58:36] [Server thread/INFO]: [PinataParty] Registering commands...
+[00:58:36] [Server thread/INFO]: [PinataParty] Registering listeners...
+[00:58:36] [Server thread/INFO]: [PinataParty] Starting tasks...
+[00:58:36] [Server thread/INFO]: [PinataParty] Starting metrics...
+[00:58:36] [Server thread/INFO]: [PinataParty] Plugin registered to 429752 | 1390746895
+[00:58:36] [Server thread/INFO]: [PinataParty] Done and enabled in 115.19ms
+[00:58:36] [Server thread/INFO]: [RavenWelcome] Enabling RavenWelcome v1.0
+[00:58:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ravenwelcome [1.0]
+[00:58:36] [Server thread/INFO]: [RavenWelcome] PlaceholderAPI expansion registered!
+[00:58:36] [Server thread/INFO]: [BlockRegen] Enabling BlockRegen v2.4
+[00:58:36] [Server thread/ERROR]: [BlockRegen] Multiplier profile 'default' not found in multiplier.yml! The multiplier system will be disabled.
+[00:58:36] [Server thread/INFO]: [BlockRegen] Loaded 11 block configurations from blocks.yml.
+[00:58:36] [Server thread/INFO]: [BlockRegen] BlockRegen has been enabled successfully!
+[00:58:36] [Server thread/INFO]: [EcoMobs] Enabling EcoMobs v10.24.0
+[00:58:36] [Server thread/INFO]: [EcoMobs] Loading EcoMobs
+[00:58:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ecomobs [10.24.0]
+[00:58:36] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+49-000e6c5
+[00:58:36] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:58:36] [Server thread/INFO]: [PhoenixCrates] Enabling PhoenixCrates v4.2.3
+[00:58:36] [Server thread/INFO]: Loading cross version adapter...
+[00:58:36] [Server thread/INFO]: CraftLegacy not found, skipping. (v1_21_R1)
+[00:58:36] [Server thread/INFO]:   ____    ____                               
+[00:58:36] [Server thread/INFO]:  |  _ \  / ___|                              
+[00:58:36] [Server thread/INFO]:  | |_) || |       Phoenix Crates v4.2.3      
+[00:58:36] [Server thread/INFO]:  |  __/ | |___    https://phoenixplugins.com/
+[00:58:36] [Server thread/INFO]:  |_|     \____|                             
+[00:58:36] [Server thread/INFO]:                                                  
+[00:58:36] [Server thread/INFO]: Loading settings...
+[00:58:36] [Server thread/INFO]: Loading file "config.yml".
+[00:58:36] [Server thread/INFO]: File "config.yml" is up to date. Importing configurations.
+[00:58:36] [Server thread/INFO]: Validating license...
+[00:58:36] [Server thread/INFO]: Great news! Your license is valid and active. Enjoy full access to all the features and benefits of this plugin.
+[00:58:36] [Server thread/INFO]: No new version available!
+[00:58:36] [Server thread/INFO]: MiniMessage founded. Preparing hook...
+[00:58:36] [Server thread/INFO]: Checking for internal patchs...
+[00:58:37] [Server thread/INFO]: [PhoenixCrates] Current patch: #202506251725
+[00:58:37] [Server thread/INFO]: [PhoenixCrates] No patches to run.
+[00:58:37] [Server thread/INFO]: Vault founded. Preparing Economy...
+[00:58:37] [Server thread/INFO]: Placeholder API founded. Preparing placeholders...
+[00:58:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phoenixcrates [1.0.0]
+[00:58:37] [Server thread/INFO]: Model Engine is not installed. If you want to support custom models in this plugin install it.
+[00:58:37] [Server thread/INFO]: -> (Meg 3) See more at: https://www.spigotmc.org/resources/conxeptworks-legacy-model-engine-1-16-5-1-20.79477/
+[00:58:37] [Server thread/INFO]: -> (Meg 4) See more at: https://mythiccraft.io/index.php?resources/20-off-model-engine%E2%80%94ultimate-entity-model-manager-1-19-4-1-20-1.1213/
+[00:58:37] [Server thread/INFO]: Loading components...
+[00:58:37] [Server thread/INFO]: Loading database...
+[00:58:37] [Server thread/INFO]: Initializing sqlite database provider...
+[00:58:37] [Server thread/WARN]: 12 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Starting...
+[00:58:37] [Server thread/WARN]: 74 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Start completed.
+[00:58:37] [Server thread/INFO]: Loading menus...
+[00:58:37] [Server thread/INFO]: Loading file "menus/default_rewards_preview.yml".
+[00:58:37] [Server thread/INFO]: File "menus/default_rewards_preview.yml" is up to date. Importing configurations.
+[00:58:37] [Server thread/INFO]: Loading file "menus/default_crate_reroll.yml".
+[00:58:37] [Server thread/INFO]: File "menus/default_crate_reroll.yml" is up to date. Importing configurations.
+[00:58:37] [Server thread/INFO]: Loading file "menus/default_select_reward.yml".
+[00:58:37] [Server thread/INFO]: File "menus/default_select_reward.yml" is up to date. Importing configurations.
+[00:58:37] [Server thread/INFO]: Loading players data...
+[00:58:37] [Server thread/INFO]: Loading keys...
+[00:58:37] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[00:58:37] [Server thread/INFO]: Loading file "keys/example2.yml".
+[00:58:37] [Server thread/INFO]: File "keys/example2.yml" is up to date. Importing configurations.
+[00:58:37] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[00:58:37] [Server thread/INFO]: Loading file "keys/example3.yml".
+[00:58:37] [Server thread/INFO]: File "keys/example3.yml" is up to date. Importing configurations.
+[00:58:37] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[00:58:37] [Server thread/INFO]: Loading file "keys/example1.yml".
+[00:58:37] [Server thread/INFO]: File "keys/example1.yml" is up to date. Importing configurations.
+[00:58:37] [Server thread/INFO]: Loaded 3 keys.
+[00:58:37] [Server thread/INFO]: Loading crates...
+[00:58:37] [Server thread/INFO]: Loading file "locations.yml".
+[00:58:37] [Server thread/INFO]: File "locations.yml" is up to date. Importing configurations.
+[00:58:38] [Server thread/INFO]: Loaded 4 types.
+[00:58:38] [Server thread/INFO]: Loaded 0 crates.
+[00:58:38] [Server thread/INFO]: Loading commands...
+[00:58:38] [Server thread/INFO]: Enabling extension Extension-417e1168-d483-4d6a-9655-ca12ab97f086
+[00:58:38] [Server thread/INFO]: Loading file "logger.yml".
+[00:58:38] [Server thread/INFO]: File "logger.yml" is up to date. Importing configurations.
+[00:58:38] [Server thread/INFO]: 
+[00:58:38] [Server thread/INFO]: Plugin loaded successfully!
+[00:58:38] [Server thread/INFO]: [Any questions or problems that may arise, contact us through
+[00:58:38] [Server thread/INFO]: the website or our discord: https://phoenixplugins.com/discord]
+[00:58:38] [Server thread/INFO]: 
+[00:58:38] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.25.0
+[00:58:38] [Server thread/INFO]: [Shopkeepers] Loading the data of 27 shopkeepers ...
+[00:58:40] [Server thread/INFO]: [CommandTimer] Enabling CommandTimer v8.16.3
+[00:58:40] [Server thread/INFO]: [CommandTimer] Using Folia scheduler adapter
+[00:58:40] [Server thread/INFO]: [CommandTimer] Skipping migration for 7e3aec9c-8e80-4fa5-ae6c-77eaf46a8525.json (v1 >= v1)
+[00:58:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: commandtimer [8.16.3]
+[00:58:40] [Server thread/INFO]: [CommandTimer] CommandTimer hooked in PlaceholderAPI
+[00:58:40] [Server thread/INFO]: [CommandTimer] Loading task 7e3aec9c-8e80-4fa5-ae6c-77eaf46a8525.json
+[00:58:40] [Server thread/INFO]: [CommandTimer] Server time : 00:58:40
+[00:58:40] [Server thread/INFO]: [CommandTimer] Server day : SUNDAY
+[00:58:40] [Server thread/INFO]: [CommandTimer] 8.16.3 loaded 1 tasks!
+[00:58:40] [Server thread/INFO]: [Simple_RTP] Enabling Simple_RTP v1.0.2-BETA
+[00:58:41] [Server thread/INFO]: [Simple_RTP] Plugin has been enabled!
+[00:58:41] [Server thread/INFO]: [Simple_RTP] Thank you for using RTP plugin! by Jaeden
+[00:58:41] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v1.5.7
+[00:58:41] [Server thread/INFO]: [RealScoreboard]    ____            _ ____                     _                         _
+[00:58:41] [Server thread/INFO]: [RealScoreboard]   |  _ \ ___  __ _| / ___|  ___ ___  _ __ ___| |__   ___   __ _ _ __ __| |
+[00:58:41] [Server thread/INFO]: [RealScoreboard]   | |_) / _ \/ _` | \___ \ / __/ _ \| '__/ _ \ '_ \ / _ \ / _` | '__/ _` |
+[00:58:41] [Server thread/INFO]: [RealScoreboard]   |  _ <  __/ (_| | |___) | (_| (_) | | |  __/ |_) | (_) | (_| | | | (_| |
+[00:58:41] [Server thread/INFO]: [RealScoreboard]   |_| \_\___|\__,_|_|____/ \___\___/|_|  \___|_.__/ \___/ \__,_|_|  \__,_|
+[00:58:41] [Server thread/INFO]: [RealScoreboard]   Made by: JoseGamer_PT 		                      Version: 1.5.7
+[00:58:41] [Server thread/INFO]: [RealScoreboard] 
+[00:58:41] [Thread-25/INFO]: [CommandTimer] Checking for update...
+[00:58:41] [Thread-25/INFO]: [CommandTimer] Update not found
+[00:58:41] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[00:58:41] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[00:58:41] [Server thread/INFO]: [RealScoreboard] Server version: 1.21.10-R0.1-SNAPSHOT
+[00:58:41] [Server thread/INFO]: [RealScoreboard] Finished loading in 0.702 seconds.
+[00:58:41] [Server thread/INFO]: [RealScoreboard] <------------------ RealScoreboard v1.5.7 ------------------>
+[00:58:41] [Server thread/INFO]: [XVaults] Enabling XVaults v2.1.2
+[00:58:42] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[00:58:42] [Server thread/INFO]: [TAB] [WARN] [config.yml] playerlist-objective: Playerlist objective value is set to be empty, but the configured value must evaluate to a number. Using 0.
+[00:58:42] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[00:58:42] [Server thread/INFO]: [TAB] Enabled in 434ms
+[00:58:42] [Server thread/INFO]: [EcoPets] Enabling EcoPets v2.77.1*
+[00:58:42] [Server thread/INFO]: [EcoPets] Loading EcoPets
+[00:58:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ecopets [2.77.1]
+[00:58:42] [Server thread/INFO]: [EcoCrates] Enabling EcoCrates v1.13.8
+[00:58:42] [Server thread/INFO]: [EcoCrates] Loading EcoCrates
+[00:58:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ecocrates [1.13.8]
+[00:58:42] [Server thread/INFO]: [Talismans] Enabling Talismans v6.77.0*
+[00:58:42] [Server thread/INFO]: [Talismans] Loading Talismans
+[00:58:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: talismans [6.77.0]
+[00:58:43] [Server thread/INFO]: [EcoArmor] Enabling EcoArmor v8.78.0*
+[00:58:43] [Server thread/INFO]: [EcoArmor] Loading EcoArmor
+[00:58:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ecoarmor [8.78.0]
+[00:58:43] [Server thread/INFO]: [BattlePass] Enabling BattlePass v5.0.3
+[00:58:44] [Server thread/INFO]: [BattlePass] Finished loading the week-2 quests. All quests loaded successfully.
+[00:58:44] [Server thread/INFO]: [BattlePass] Finished loading the event-easter quests. All quests loaded successfully.
+[00:58:44] [Server thread/INFO]: [BattlePass] Finished loading the week-1 quests. All quests loaded successfully.
+[00:58:44] [Server thread/INFO]: [BattlePass] Finished loading the week-4 quests. All quests loaded successfully.
+[00:58:44] [Server thread/INFO]: [BattlePass] Finished loading the week-3 quests. All quests loaded successfully.
+[00:58:44] [Server thread/INFO]: [BattlePass] Finished loading the week-pool quests. All quests loaded successfully.
+[00:58:44] [Server thread/INFO]: [BattlePass] Finished loading the daily quests. All quests loaded successfully.
+[00:58:44] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: free
+[00:58:44] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: premium
+[00:58:44] [Server thread/INFO]: [BattlePass] Register PlaceholderAPI placeholders
+[00:58:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: battlepass [1.1]
+[00:58:44] [Server thread/INFO]: [AnimaBossBar] Enabling AnimaBossBar v${project.version}
+[00:58:44] [Server thread/INFO]: [AnimaBossBar] AnimaBossBar enabled.
+[00:58:44] [Server thread/INFO]: [libreforge] Enabling libreforge v4.79.0
+[00:58:44] [Server thread/INFO]: [libreforge] Loading libreforge
+[00:58:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: libreforge [4.79.0]
+[00:58:44] [Server thread/INFO]: [libreforge] Loaded integrations: AuraSkills, TAB, FancyNpcs, Vault, WorldGuard
+[00:58:44] [Server thread/INFO]: [libreforge] 
+[00:58:44] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
+[00:58:44] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
+[00:58:44] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
+[00:58:44] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
+[00:58:44] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
+[00:58:44] [Server thread/INFO]: [libreforge] 
+[00:58:44] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
+[00:58:44] [Server thread/INFO]: [libreforge] 
+[00:58:45] [Server thread/INFO]: [spark] Starting background profiler...
+[00:58:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:58:46] [Server thread/INFO]: Starting remote control listener
+[00:58:46] [Server thread/INFO]: Thread RCON Listener started
+[00:58:46] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[00:58:46] [Server thread/INFO]: Running delayed init tasks
+[00:58:46] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:58:46] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:58:46] [Craft Scheduler Thread - 9 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.6.3
+[00:58:46] [Craft Scheduler Thread - 9 - EliteMobs/INFO]: [EliteMobs] Your version is 9.6.1
+[00:58:46] [Craft Scheduler Thread - 9 - EliteMobs/WARN]: [EliteMobs] [EliteMobs] A newer version of this plugin is available for download!
+[00:58:46] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:58:46] [Craft Scheduler Thread - 9 - zAuctionHouseV3/INFO]: [zAuctionHouseV3] The database connection is valid ! (192.168.10.10)
+[00:58:46] [Craft Scheduler Thread - 18 - BlockRegen/INFO]: [BlockRegen] §a[BlockRegen] You are running the latest version.
+[00:58:46] [Craft Scheduler Thread - 21 - RealScoreboard/INFO]: [RealScoreboard] The plugin is updated to the latest version.
+[00:58:46] [Craft Scheduler Thread - 13 - EcoJobs/WARN]: [EcoJobs] EcoJobs is out of date! (Version 3.72.0)
+[00:58:46] [Craft Scheduler Thread - 13 - EcoJobs/WARN]: [EcoJobs] The newest version is 3.77.2
+[00:58:46] [Craft Scheduler Thread - 13 - EcoJobs/WARN]: [EcoJobs] Download the new version!
+[00:58:46] [Craft Scheduler Thread - 9 - zAuctionHouseV3/INFO]: [zAuctionHouseV3] Executing SQL: PRAGMA table_info(zauctionhouse_options)
+[00:58:46] [Craft Scheduler Thread - 9 - zAuctionHouseV3/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading items
+[00:58:46] [Craft Scheduler Thread - 9 - zAuctionHouseV3/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading transactions
+[00:58:46] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[00:58:46] [pool-122-thread-2/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading of transactions successfully completed.
+[00:58:46] [pool-122-thread-1/INFO]: [zAuctionHouseV3 v3.2.4.0] Loading of items successfully completed.
+[00:58:46] [Craft Scheduler Thread - 14 - EcoCrates/WARN]: [EcoCrates] EcoCrates is out of date! (Version 1.13.8)
+[00:58:46] [Craft Scheduler Thread - 14 - EcoCrates/WARN]: [EcoCrates] The newest version is 1.13.10
+[00:58:46] [Craft Scheduler Thread - 14 - EcoCrates/WARN]: [EcoCrates] Download the new version!
+[00:58:47] [Craft Scheduler Thread - 20 - EcoPets/WARN]: [EcoPets] EcoPets is out of date! (Version 2.77.1)
+[00:58:47] [Craft Scheduler Thread - 20 - EcoPets/WARN]: [EcoPets] The newest version is 2.77.2
+[00:58:47] [Craft Scheduler Thread - 20 - EcoPets/WARN]: [EcoPets] Download the new version!
+[00:58:47] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[00:58:47] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[00:58:47] [Craft Scheduler Thread - 11 - zMenu/INFO]: [zMenu v1.1.0.7] No update available.
+[00:58:47] [Craft Scheduler Thread - 15 - zAuctionHouseV3/INFO]: [zAuctionHouseV3 v3.2.4.0] New update available. Your version: 3.2.4.0, latest version: 3.2.4.1
+[00:58:47] [Craft Scheduler Thread - 15 - zAuctionHouseV3/INFO]: [zAuctionHouseV3 v3.2.4.0] Download plugin here: https://groupez.dev/resources/1
+[00:58:49] [Server thread/INFO]: Skulls » Loaded 102792 skulls in 30,913.670ms
+[00:58:49] [pool-140-thread-1/INFO]: [BattlePass] [STDOUT] Leaderboards reloaded in 38 ms
+[00:58:49] [pool-140-thread-1/WARN]: Nag author(s): '[]' of 'BattlePass v5.0.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[00:58:50] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 319 total sources
+[00:58:50] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[00:58:50] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[00:58:50] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[00:58:51] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.7) is available at:
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[00:58:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[00:58:56] [Server thread/INFO]: 6 placeholder hook(s) registered!
+[00:58:56] [Server thread/INFO]: Done (157.413s)! For help, type "help"
+[00:58:56] [Craft Scheduler Thread - 15 - Skulls/INFO]: Skulls » Running database check :)
+[00:58:56] [Server thread/INFO]: [eco] Loaded eco
+[00:58:57] [Server thread/INFO]: [EcoItems] Loaded EcoItems
+[00:58:57] [Server thread/INFO]: [EcoJobs] Loaded EcoJobs
+[00:58:57] [Server thread/INFO]: [EcoMobs] Loaded EcoMobs
+[00:58:57] [Server thread/INFO]: [EcoPets] Loaded EcoPets
+[00:58:57] [Server thread/INFO]: [EcoCrates] Loaded EcoCrates
+[00:58:59] [Server thread/INFO]: [Talismans] Loaded Talismans
+[00:58:59] [Server thread/INFO]: [EcoArmor] Loaded EcoArmor
+[00:59:00] [Server thread/INFO]: [libreforge] Loaded libreforge
+[00:59:02] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[00:59:02] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[00:59:02] [Craft Scheduler Thread - 15 - Skulls/INFO]: Skulls » Everything looks up-to-date, no issues found. Enjoy!
+[00:59:02] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into ProtocolLib, AuraSkills, AdvancedEnchantments, WorldGuard, PlaceholderAPI, ProtectionStones, Essentials, Vault, LuckPerms.
+[00:59:02] [Server thread/INFO]: [AdvancedEnchantments] Hooked into AdvancedEnchantments
+[00:59:03] [Server thread/INFO]: [EconomyShopGUI] Hooked into EconomyShopGUI
+[00:59:03] [Server thread/INFO]: [Shopkeepers] Hooked into Shopkeepers
+[00:59:03] [Craft Scheduler Thread - 15 - AdvancedEnchantments/INFO]: [AdvancedEnchantments] You're using an outdated version of AdvancedEnchantments. A new version is available: 9.22.7
+[00:59:03] [Craft Scheduler Thread - 15 - AdvancedEnchantments/INFO]: [AdvancedEnchantments] Keep your Advanced plugins up to date automatically with MintServers Unlimited Hosting: https://mintservers.com/
+[00:59:04] [Craft Scheduler Thread - 15 - SpawnerMeta/INFO]: [Spawner Meta v25.4] New version is available: v25.5! To download visit: https://www.spigotmc.org/resources/spawnermeta.74188/
+[00:59:12] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[00:59:12] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[00:59:18] [User Authenticator #0/INFO]: UUID of player apolofs is 9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c
+[00:59:18] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [eco, LuckPerms, EliteMobs, Skulls, ProtocolLib, WorldGuard]
+[00:59:21] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to PhoenixCrates v4.2.3
+java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_21_R1/entity/CraftPlayer
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.nms.v1_21_R1.NMSFactoryImpl.modifyPipeline(NMSFactoryImpl.java:150) ~[PhoenixCrates-4.2.3.jar:?]
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.nms.v1_21_R1.NMSFactoryImpl.injectFakeEntityPacketListener(NMSFactoryImpl.java:112) ~[PhoenixCrates-4.2.3.jar:?]
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.utils.Utilities$2.onPlayerJoin(Utilities.java:109) ~[PhoenixCrates-4.2.3.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:236) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:313) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:139) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:210) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R1.entity.CraftPlayer
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 21 more
+[00:59:22] [Server thread/INFO]: Welcome apolofs to the server!
+[00:59:22] [Server thread/INFO]: apolofs[/192.168.194.149:63212] logged in with entity id 16 at ([minasranks]387.49076194024934, -51.0, 239.64408308815933)
+[00:59:23] [Craft Scheduler Thread - 15 - EliteMobs/INFO]: [EliteMobs] User 9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c data successfully read!
+[00:59:25] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[00:59:25] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[00:59:35] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[00:59:35] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[00:59:45] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[00:59:45] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[00:59:55] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[00:59:55] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:00:05] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:00:05] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:00:15] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:00:15] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:00:25] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:00:25] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:00:35] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:00:35] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:00:45] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:00:45] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:00:55] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:00:55] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:01:05] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:01:05] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:01:15] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:01:15] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:01:25] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:01:25] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:01:35] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:01:35] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:01:45] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:01:45] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:01:55] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:01:55] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:02:05] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:02:05] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:02:08] [Server thread/INFO]: apolofs issued server command: /worldedit reload
+[01:02:08] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[01:02:14] [Server thread/INFO]: apolofs issued server command: /schematic list
+[01:02:15] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:02:15] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:02:17] [Server thread/INFO]: apolofs issued server command: //schem list -p 2
+[01:02:18] [Server thread/INFO]: apolofs issued server command: //schem list -p 3
+[01:02:25] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:02:25] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:02:35] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:02:35] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:02:45] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:02:45] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:02:46] [Server thread/INFO]: apolofs issued server command: /schematic load NEW MINE MAY 2017.schematic
+[01:02:55] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:02:55] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:03:04] [Server thread/INFO]: apolofs issued server command: /schematic load NEWMINEMAY2017.schematic
+[01:03:05] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:03:05] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:03:15] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:03:15] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:03:22] [Server thread/INFO]: apolofs issued server command: //schem list -p 4
+[01:03:25] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:03:25] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:03:25] [Server thread/INFO]: apolofs issued server command: //schem list -p 5
+[01:03:26] [Server thread/INFO]: apolofs issued server command: //schem list -p 6
+[01:03:35] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:03:35] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:03:45] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:03:45] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:03:46] [Server thread/INFO]: apolofs issued server command: /schematic load qPrision1.schematic
+[01:03:55] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:03:55] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:03:55] [Server thread/INFO]: apolofs issued server command: /schematic load qPrision1.schematic
+[01:04:03] [Server thread/INFO]: apolofs issued server command: /schematic load qPrison1.schematic
+[01:04:05] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
+[01:04:05] [Server thread/INFO]: A Treasure Goblin has been sighted!
+[01:04:05] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:04:05] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:04:08] [WorldEdit Task Executor - 1/INFO]: apolofs loaded /workspaces/Solarking/servidor_minecraft/plugins/WorldEdit/schematics/qPrison1.schematic
+[01:04:12] [Server thread/INFO]: apolofs issued server command: //paste
+[01:04:51] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[01:05:01] [Server thread/INFO]: apolofs lost connection: Disconnected
+[01:05:01] [Server thread/INFO]: apolofs has left the server!
+[01:05:04] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:05:04] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:05:14] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:05:14] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:05:22] [User Authenticator #1/INFO]: UUID of player apolofs is 9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c
+[01:05:24] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to PhoenixCrates v4.2.3
+java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_21_R1/entity/CraftPlayer
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.nms.v1_21_R1.NMSFactoryImpl.modifyPipeline(NMSFactoryImpl.java:150) ~[PhoenixCrates-4.2.3.jar:?]
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.nms.v1_21_R1.NMSFactoryImpl.injectFakeEntityPacketListener(NMSFactoryImpl.java:112) ~[PhoenixCrates-4.2.3.jar:?]
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.utils.Utilities$2.onPlayerJoin(Utilities.java:109) ~[PhoenixCrates-4.2.3.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:236) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:313) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:139) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:210) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R1.entity.CraftPlayer
+	... 21 more
+[01:05:24] [Server thread/INFO]: Welcome apolofs to the server!
+[01:05:24] [Server thread/INFO]: apolofs[/192.168.194.149:63243] logged in with entity id 697 at ([minasranks]-95.13138371180752, 54.52260891064002, -161.50725929242634)
+[01:05:24] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:05:24] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:05:25] [Craft Scheduler Thread - 44 - EliteMobs/INFO]: [EliteMobs] User 9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c data successfully read!
+[01:05:34] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:05:34] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:05:44] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:05:44] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:05:54] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:05:54] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:06:04] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:06:04] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:06:14] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:06:14] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:06:24] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:06:24] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:06:33] [Server thread/INFO]: apolofs issued server command: /schematic load qPrison2.schematic
+[01:06:33] [WorldEdit Task Executor - 2/INFO]: apolofs loaded /workspaces/Solarking/servidor_minecraft/plugins/WorldEdit/schematics/qPrison2.schematic
+[01:06:34] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:06:34] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:06:36] [Server thread/INFO]: apolofs issued server command: //paste
+[01:06:49] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:06:49] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:06:59] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:06:59] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:07:09] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:07:09] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:07:19] [Server thread/INFO]: apolofs issued server command: /schematic load qPrison3.schematic
+[01:07:19] [WorldEdit Task Executor - 2/INFO]: apolofs loaded /workspaces/Solarking/servidor_minecraft/plugins/WorldEdit/schematics/qPrison3.schematic
+[01:07:19] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:07:19] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:07:23] [Server thread/INFO]: apolofs issued server command: //paste
+[01:07:32] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:07:32] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:07:42] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:07:42] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:07:51] [Server thread/INFO]: apolofs issued server command: /schematic load qPrison4.schematic
+[01:07:52] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:07:52] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:08:01] [Server thread/INFO]: apolofs issued server command: /schematic list
+[01:08:02] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:08:02] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:08:04] [Server thread/INFO]: apolofs issued server command: //schem list -p 2
+[01:08:04] [Server thread/INFO]: apolofs issued server command: //schem list -p 3
+[01:08:04] [Server thread/INFO]: apolofs issued server command: //schem list -p 4
+[01:08:05] [Server thread/INFO]: apolofs issued server command: //schem list -p 5
+[01:08:06] [Server thread/INFO]: apolofs issued server command: //schem list -p 6
+[01:08:06] [Server thread/INFO]: apolofs issued server command: //schem list -p 7
+[01:08:12] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:08:12] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:08:16] [Server thread/INFO]: apolofs issued server command: /schematic load qPrison5.schematic
+[01:08:16] [WorldEdit Task Executor - 2/INFO]: apolofs loaded /workspaces/Solarking/servidor_minecraft/plugins/WorldEdit/schematics/qPrison5.schematic
+[01:08:22] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:08:22] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:08:23] [Server thread/INFO]: apolofs issued server command: //paste
+[01:08:49] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:08:49] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:08:59] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:08:59] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:09:09] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:09:09] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:09:19] [Server thread/INFO]: [EliteMobs] Event pillager_caravan.yml has been queued!
+[01:09:19] [Server thread/INFO]: A pillager caravan has been sighted!
+[01:09:19] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:09:19] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:09:29] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:09:29] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:09:39] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:09:39] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:09:49] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:09:49] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:09:54] [Server thread/INFO]: apolofs issued server command: /schematic load qPrison6.schematic
+[01:09:59] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:09:59] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:09:59] [WorldEdit Task Executor - 3/INFO]: apolofs loaded /workspaces/Solarking/servidor_minecraft/plugins/WorldEdit/schematics/qPrison6.schematic
+[01:10:00] [Server thread/INFO]: apolofs issued server command: //paste
+[01:10:48] [Server thread/INFO]: apolofs lost connection: Disconnected
+[01:10:48] [Server thread/INFO]: apolofs has left the server!
+[01:10:57] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:10:57] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:10:58] [User Authenticator #2/INFO]: UUID of player apolofs is 9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c
+[01:10:59] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to PhoenixCrates v4.2.3
+java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_21_R1/entity/CraftPlayer
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.nms.v1_21_R1.NMSFactoryImpl.modifyPipeline(NMSFactoryImpl.java:150) ~[PhoenixCrates-4.2.3.jar:?]
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.nms.v1_21_R1.NMSFactoryImpl.injectFakeEntityPacketListener(NMSFactoryImpl.java:112) ~[PhoenixCrates-4.2.3.jar:?]
+	at PhoenixCrates-4.2.3.jar/com.phoenixplugins.phoenixcrates.lib.common.utils.Utilities$2.onPlayerJoin(Utilities.java:109) ~[PhoenixCrates-4.2.3.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:236) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:313) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:139) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:210) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R1.entity.CraftPlayer
+	... 21 more
+[01:10:59] [Server thread/INFO]: Welcome apolofs to the server!
+[01:10:59] [Server thread/INFO]: apolofs[/192.168.194.149:63265] logged in with entity id 2404 at ([minasranks]107.39743514645156, 76.81533130252772, 492.90527954983304)
+[01:11:01] [Craft Scheduler Thread - 58 - EliteMobs/INFO]: [EliteMobs] User 9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c data successfully read!
+[01:11:08] [pool-140-thread-1/INFO]: [BattlePass] [STDOUT] Leaderboards reloaded in 5 ms
+[01:11:08] [pool-140-thread-1/WARN]: Nag author(s): '[]' of 'BattlePass v5.0.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[01:11:08] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:11:08] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:11:18] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:11:18] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:11:28] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:11:28] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:11:38] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:11:38] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:11:48] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:11:48] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:11:58] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:11:58] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:12:06] [Server thread/INFO]: apolofs issued server command: /schematic load qPrison7.schematic
+[01:12:07] [WorldEdit Task Executor - 4/INFO]: apolofs loaded /workspaces/Solarking/servidor_minecraft/plugins/WorldEdit/schematics/qPrison7.schematic
+[01:12:08] [Server thread/INFO]: [CommandTimer] Populating schedule for task: Task_JFyO
+[01:12:08] [Server thread/INFO]: [CommandTimer] Task Task_JFyO is not active, skipping scheduling
+[01:12:08] [Server thread/INFO]: apolofs issued server command: //paste
+[01:12:16] [Thread-0/INFO]: Stopping server
+[01:12:16] [Thread-0/INFO]: [libreforge] Disabling libreforge v4.79.0
+[01:12:16] [Thread-0/INFO]: [libreforge] Cleaning up...
+[01:12:16] [Thread-0/INFO]: [AnimaBossBar] Disabling AnimaBossBar v${project.version}
+[01:12:16] [Thread-0/INFO]: [BattlePass] Disabling BattlePass v5.0.3
+[01:12:16] [Thread-0/INFO]: [EcoArmor] Disabling EcoArmor v8.78.0
+[01:12:16] [Thread-0/INFO]: [EcoArmor] Cleaning up...
+[01:12:16] [Thread-0/INFO]: [Talismans] Disabling Talismans v6.77.0
+[01:12:16] [Thread-0/INFO]: [Talismans] Cleaning up...
+[01:12:16] [Thread-0/INFO]: [EcoCrates] Disabling EcoCrates v1.13.8
+[01:12:16] [Thread-0/INFO]: [EcoCrates] Cleaning up...
+[01:12:16] [Thread-0/INFO]: [EcoPets] Disabling EcoPets v2.77.1
+[01:12:16] [Thread-0/ERROR]: [ca.spottedleaf.moonrise.common.util.TickThread] Thread failed main thread check: Cannot remove entity off-main, context=thread=Thread-0, entity={root=[{type=ArmorStand,id=2405,uuid=ced4c8e1-b2b7-4dea-9985-03c766cebb17,pos=(292.804,81.078,454.049),mot=(0.000,0.000,0.000),aabb=AABB[292.6788775368146, 81.07840673988477, 453.9238687648833] -> [292.9288775368146, 82.0659067518057, 454.1738687648833],removed=DISCARDED,has_vehicle=false,passenger_count=0], vehicle=[{null}], passengers=[]
+java.lang.Throwable: null
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:73) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.server.ServerEntityLookup.checkThread(ServerEntityLookup.java:58) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup$EntityCallback.onRemove(EntityLookup.java:983) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.world.entity.Entity.setRemoved(Entity.java:5170) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.world.entity.Entity.remove(Entity.java:721) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.world.entity.LivingEntity.remove(LivingEntity.java:747) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.world.entity.Entity.discard(Entity.java:653) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.entity.CraftEntity.remove(CraftEntity.java:463) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at EcoPets v2.77.1.jar/com.willfp.ecopets.pets.PetDisplay.shutdown(PetDisplay.kt:173) ~[EcoPets v2.77.1.jar:?]
+	at EcoPets v2.77.1.jar/com.willfp.ecopets.EcoPetsPlugin.handleDisable(EcoPetsPlugin.kt:104) ~[EcoPets v2.77.1.jar:?]
+	at eco-6.77.2-all.jar/com.willfp.eco.core.EcoPlugin.handleLifecycle(EcoPlugin.java:723) ~[eco-6.77.2-all.jar:?]
+	at eco-6.77.2-all.jar/com.willfp.eco.core.EcoPlugin.onDisable(EcoPlugin.java:501) ~[eco-6.77.2-all.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:612) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1019) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+[01:12:16] [Thread-0/ERROR]: [EcoPets] Error while running lifecycle task!
+[01:12:16] [Thread-0/ERROR]: [EcoPets] The plugin may not function properly
+[01:12:16] [Thread-0/WARN]: java.lang.IllegalStateException: Thread failed main thread check: Cannot remove entity off-main, context=thread=Thread-0, entity={root=[{type=ArmorStand,id=2405,uuid=ced4c8e1-b2b7-4dea-9985-03c766cebb17,pos=(292.804,81.078,454.049),mot=(0.000,0.000,0.000),aabb=AABB[292.6788775368146, 81.07840673988477, 453.9238687648833] -> [292.9288775368146, 82.0659067518057, 454.1738687648833],removed=DISCARDED,has_vehicle=false,passenger_count=0], vehicle=[{null}], passengers=[]
+[01:12:16] [Thread-0/WARN]: 	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:74)
+[01:12:16] [Thread-0/WARN]: 	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.server.ServerEntityLookup.checkThread(ServerEntityLookup.java:58)
+[01:12:16] [Thread-0/WARN]: 	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup$EntityCallback.onRemove(EntityLookup.java:983)
+[01:12:16] [Thread-0/WARN]: 	at net.minecraft.world.entity.Entity.setRemoved(Entity.java:5170)
+[01:12:16] [Thread-0/WARN]: 	at net.minecraft.world.entity.Entity.remove(Entity.java:721)
+[01:12:16] [Thread-0/WARN]: 	at net.minecraft.world.entity.LivingEntity.remove(LivingEntity.java:747)
+[01:12:16] [Thread-0/WARN]: 	at net.minecraft.world.entity.Entity.discard(Entity.java:653)
+[01:12:16] [Thread-0/WARN]: 	at org.bukkit.craftbukkit.entity.CraftEntity.remove(CraftEntity.java:463)
+[01:12:16] [Thread-0/WARN]: 	at EcoPets v2.77.1.jar//com.willfp.ecopets.pets.PetDisplay.shutdown(PetDisplay.kt:173)
+[01:12:16] [Thread-0/WARN]: 	at EcoPets v2.77.1.jar//com.willfp.ecopets.EcoPetsPlugin.handleDisable(EcoPetsPlugin.kt:104)
+[01:12:16] [Thread-0/WARN]: 	at eco-6.77.2-all.jar//com.willfp.eco.core.EcoPlugin.handleLifecycle(EcoPlugin.java:723)
+[01:12:16] [Thread-0/WARN]: 	at eco-6.77.2-all.jar//com.willfp.eco.core.EcoPlugin.onDisable(EcoPlugin.java:501)
+[01:12:16] [Thread-0/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285)
+[01:12:16] [Thread-0/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[01:12:16] [Thread-0/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161)
+[01:12:16] [Thread-0/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97)
+[01:12:16] [Thread-0/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541)
+[01:12:16] [Thread-0/WARN]: 	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:612)
+[01:12:16] [Thread-0/WARN]: 	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1019)
+[01:12:16] [Thread-0/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917)
+[01:12:16] [Thread-0/WARN]: 	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985)
+[01:12:16] [Thread-0/WARN]: 	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26)
+[01:12:16] [Thread-0/INFO]: [EcoPets] Cleaning up...
+[01:12:16] [Thread-0/INFO]: [TAB] Disabling TAB v5.4.0
+[01:12:16] [Thread-0/INFO]: [TAB] Disabled in 4ms
+[01:12:16] [Thread-0/INFO]: [XVaults] Disabling XVaults v2.1.2
+[01:12:16] [Thread-0/INFO]: [RealScoreboard] Disabling RealScoreboard v1.5.7
+[01:12:16] [Thread-0/INFO]: [Ouranos] Disabling Ouranos v1.1.11
+[01:12:16] [Thread-0/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[01:12:16] [Thread-0/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[01:12:16] [Thread-0/INFO]: [Simple_RTP] Disabling Simple_RTP v1.0.2-BETA
+[01:12:16] [Thread-0/INFO]: [Simple_RTP] Plugin has been disabled!
+[01:12:16] [Thread-0/INFO]: [CommandTimer] Disabling CommandTimer v8.16.3
+[01:12:16] [Thread-0/INFO]: [Shopkeepers] Disabling Shopkeepers v2.25.0
+[01:12:16] [Thread-0/ERROR]: Error occurred while disabling Shopkeepers v2.25.0
+java.lang.IllegalStateException: This operation has to be called from the main thread!
+	at Shopkeepers-2.25.0.jar/com.nisovin.shopkeepers.util.java.Validate$State.error(Validate.java:224) ~[Shopkeepers-2.25.0.jar:?]
+	at Shopkeepers-2.25.0.jar/com.nisovin.shopkeepers.util.java.Validate$State.isTrue(Validate.java:289) ~[Shopkeepers-2.25.0.jar:?]
+	at Shopkeepers-2.25.0.jar/com.nisovin.shopkeepers.util.bukkit.SingletonTask.validateMainThreadAndNotWithinExecution(SingletonTask.java:136) ~[Shopkeepers-2.25.0.jar:?]
+	at Shopkeepers-2.25.0.jar/com.nisovin.shopkeepers.util.bukkit.SingletonTask.awaitExecutions(SingletonTask.java:221) ~[Shopkeepers-2.25.0.jar:?]
+	at Shopkeepers-2.25.0.jar/com.nisovin.shopkeepers.storage.SKShopkeeperStorage.saveIfDirtyAndAwaitCompletion(SKShopkeeperStorage.java:849) ~[Shopkeepers-2.25.0.jar:?]
+	at Shopkeepers-2.25.0.jar/com.nisovin.shopkeepers.storage.SKShopkeeperStorage.onDisable(SKShopkeeperStorage.java:166) ~[Shopkeepers-2.25.0.jar:?]
+	at Shopkeepers-2.25.0.jar/com.nisovin.shopkeepers.SKShopkeepersPlugin.onDisable(SKShopkeepersPlugin.java:496) ~[Shopkeepers-2.25.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:612) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1019) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+[01:12:16] [Thread-0/INFO]: [PhoenixCrates] Disabling PhoenixCrates v4.2.3
+[01:12:16] [Thread-0/INFO]: Disabling extension Extension-417e1168-d483-4d6a-9655-ca12ab97f086
+[01:12:16] [Thread-0/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+49-000e6c5
+[01:12:16] [Thread-0/INFO]: [EcoMobs] Disabling EcoMobs v10.24.0
+[01:12:16] [Thread-0/INFO]: [EcoMobs] Cleaning up...
+[01:12:16] [Thread-0/INFO]: [BlockRegen] Disabling BlockRegen v2.4
+[01:12:16] [Thread-0/INFO]: [BlockRegen] Server is shutting down. Regenerating all pending blocks immediately...
+[01:12:16] [Thread-0/INFO]: [BlockRegen] All pending blocks have been regenerated.
+[01:12:16] [Thread-0/INFO]: [BlockRegen] BlockRegen has been disabled.
+[01:12:16] [Thread-0/INFO]: [RavenWelcome] Disabling RavenWelcome v1.0
+[01:12:16] [Thread-0/INFO]: [PinataParty] Disabling PinataParty v2.69.3
+[01:12:16] [Thread-0/INFO]: [PinataParty] Removing 0 active pinatas...
+[01:12:16] [Thread-0/INFO]: [PinataParty] Unregistering team...
+[01:12:16] [Thread-0/INFO]: [PinataParty] Saving data...
+[01:12:16] [Thread-0/INFO]: [PinataParty] Done and disabled in 39.88ms
+[01:12:16] [Thread-0/INFO]: [PinataParty] If you liked the plugin, don't forget to give a ★★★★★ rating!
+[01:12:16] [Thread-0/INFO]: [PinataParty] Thank you and have a great day!
+[01:12:16] [Thread-0/INFO]: [EconomyX] Disabling EconomyX v2.8.3-FINAL
+[01:12:16] [Thread-0/INFO]: [EconomyX] Saving all accounts...
+[01:12:16] [Thread-0/INFO]: [InfiniteGUI] Disabling InfiniteGUI v1.1.10
+[01:12:17] [Thread-0/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.2
+[01:12:17] [Thread-0/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.16.2
+[01:12:17] [Thread-0/INFO]: [AxRewards] Disabling AxRewards v3.7.0
+[01:12:17] [Thread-0/INFO]: [zAuctionHouseV3] Disabling zAuctionHouseV3 v3.2.4.0
+[01:12:17] [Thread-0/INFO]: [zAuctionHouseV3 v3.2.4.0] === DISABLE START ===
+[01:12:17] [Thread-0/INFO]: [zAuctionHouseV3 v3.2.4.0] === DISABLE DONE (2ms) ===
+[01:12:17] [Thread-0/INFO]: [DeepVoid] Disabling DeepVoid v2.22.0
+[01:12:17] [Thread-0/INFO]: [DeepVoid] DeepVoid successfully disabled.
+[01:12:17] [Thread-0/INFO]: [VoidTeleport] Disabling VoidTeleport v2.4.5
+[01:12:17] [Thread-0/INFO]: [EcoJobs] Disabling EcoJobs v3.72.0
+[01:12:17] [Thread-0/INFO]: [EcoJobs] Cleaning up...
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Disabling AdvancedKits v1.21.29
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unhooked from Skulls (ITEM)!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unhooked from ItemEdit (ITEM)!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unregistred economy with ID ELITEMOBS!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unhooked from EliteMobs (ECONOMY)!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unregistred economy with ID VAULT!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unhooked from Vault (ECONOMY)!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unregistred economy with ID ESSENTIALS!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unhooked from Essentials (ECONOMY)!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unhooked from PlaceholderAPI (PLACEHOLDER)!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully unhooked from PlaceholderAPI (EXPANSION)!
+[01:12:17] [Thread-0/INFO]: [AdvancedKits] Successfully disabled in 22 ms!
+[01:12:17] [Thread-0/INFO]: [EcoItems] Disabling EcoItems v5.66.0
+[01:12:17] [Thread-0/INFO]: [EcoItems] Cleaning up...
+[01:12:17] [Thread-0/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+49-000e6c5
+[01:12:17] [Thread-0/INFO]: [SpawnerMeta] Disabling SpawnerMeta v25.5
+[01:12:17] [Thread-0/INFO]: [SpawnerMeta v25.4] disabled!
+[01:12:17] [Thread-0/INFO]: [zMenu] Disabling zMenu v1.1.0.7
+[01:12:17] [Thread-0/INFO]: [zMenu v1.1.0.7] === DISABLE START ===
+[01:12:17] [Thread-0/INFO]: [zMenu v1.1.0.7] === DISABLE DONE (10ms) ===
+[01:12:17] [Thread-0/INFO]: [AdvancedEnchantments] Disabling AdvancedEnchantments v9.22.0
+[01:12:17] [Thread-0/INFO]: [Skulls] Disabling Skulls v3.28.0
+[01:12:17] [Thread-0/INFO]: [EliteMobs] Disabling EliteMobs v9.6.1
+[01:12:17] [Thread-0/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[01:12:17] [Thread-0/ERROR]: Thread Thread-0 failed main thread check: Chunk getEntities call
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:9) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.level.ServerLevel.getEntities(ServerLevel.java:2508) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.CraftWorld.getNMSEntities(CraftWorld.java:955) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.CraftRegionAccessor.getEntities(CraftRegionAccessor.java:262) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.wipeShutdown(EntityTracker.java:213) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.EliteMobs.onDisable(EliteMobs.java:347) ~[EliteMobs.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:612) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1019) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+[01:12:17] [Thread-0/ERROR]: Error occurred while disabling EliteMobs v9.6.1
+java.lang.IllegalStateException: Asynchronous Chunk getEntities call!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:10) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.level.ServerLevel.getEntities(ServerLevel.java:2508) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.CraftWorld.getNMSEntities(CraftWorld.java:955) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.CraftRegionAccessor.getEntities(CraftRegionAccessor.java:262) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.wipeShutdown(EntityTracker.java:213) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.EliteMobs.onDisable(EliteMobs.java:347) ~[EliteMobs.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:612) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1019) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+[01:12:17] [Thread-0/INFO]: [ItemEdit] Disabling ItemEdit v3.7.8
+[01:12:17] [Thread-0/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemedit
+[01:12:17] [Thread-0/INFO]: [PlaceholderAPI] Reason: required plugin ItemEdit was disabled.
+[01:12:17] [Thread-0/INFO]: [eco] Disabling eco v6.77.2
+[01:12:17] [Thread-0/INFO]: [eco] Saving player data...
+[01:12:17] [Thread-0/INFO]: [eco] Saved player data! Took 6ms
+[01:12:17] [Thread-0/INFO]: [eco] Cleaning up...
+[01:12:17] [Thread-0/INFO]: [AuraSkills] Disabling AuraSkills v2.3.10
+[01:12:17] [Thread-0/INFO]: [ProtectionStones] Disabling ProtectionStones v2.10.5
+[01:12:17] [Thread-0/INFO]: [GHolo] Disabling GHolo v2.2.6
+[01:12:17] [Thread-0/INFO]: [GHolo] The plugin was successfully disabled.
+[01:12:17] [Thread-0/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+49-000e6c5
+[01:12:17] [Thread-0/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[01:12:17] [Thread-0/INFO]: [FancyHolograms] Disabling FancyHolograms v2.9.0
+[01:12:17] [Thread-0/ERROR]: Error occurred while disabling FancyHolograms v2.9.0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@3a1d7379[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6d8cb82e[Wrapped task = de.oliver.fancyanalytics.logger.FancyLogger$$Lambda/0x000072f5194b9130@4bcd194e]] rejected from java.util.concurrent.ThreadPoolExecutor@4db832e2[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123) ~[?:?]
+	at java.base/java.util.concurrent.Executors$DelegatedExecutorService.submit(Executors.java:785) ~[?:?]
+	at FancyHolograms-2.9.0.jar/de.oliver.fancyanalytics.logger.FancyLogger.log(FancyLogger.java:117) ~[FancyHolograms-2.9.0.jar:?]
+	at FancyHolograms-2.9.0.jar/de.oliver.fancyanalytics.logger.ExtendedFancyLogger.log(ExtendedFancyLogger.java:60) ~[FancyHolograms-2.9.0.jar:?]
+	at FancyHolograms-2.9.0.jar/de.oliver.fancyanalytics.logger.ExtendedFancyLogger.info(ExtendedFancyLogger.java:77) ~[FancyHolograms-2.9.0.jar:?]
+	at FancyHolograms-2.9.0.jar/de.oliver.fancyholograms.FancyHolograms.onDisable(FancyHolograms.java:194) ~[FancyHolograms-2.9.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:612) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1019) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+[01:12:17] [Thread-0/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[01:12:17] [Thread-0/INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
+[01:12:17] [Thread-0/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[01:12:17] [Thread-0/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
+[01:12:17] [Thread-0/INFO]: [FancyNpcs] Disabling FancyNpcs v2.9.0
+[01:12:17] [Thread-0/ERROR]: Error occurred while disabling FancyNpcs v2.9.0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@294802ae[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@74c905a8[Wrapped task = de.oliver.fancyanalytics.logger.FancyLogger$$Lambda/0x000072f519c2e948@7f874de0]] rejected from java.util.concurrent.ThreadPoolExecutor@75b8603[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123) ~[?:?]
+	at java.base/java.util.concurrent.Executors$DelegatedExecutorService.submit(Executors.java:785) ~[?:?]
+	at FancyNpcs-2.9.0.jar/de.oliver.fancyanalytics.logger.FancyLogger.log(FancyLogger.java:117) ~[FancyNpcs-2.9.0.jar:?]
+	at FancyNpcs-2.9.0.jar/de.oliver.fancyanalytics.logger.ExtendedFancyLogger.log(ExtendedFancyLogger.java:60) ~[FancyNpcs-2.9.0.jar:?]
+	at FancyNpcs-2.9.0.jar/de.oliver.fancyanalytics.logger.ExtendedFancyLogger.info(ExtendedFancyLogger.java:77) ~[FancyNpcs-2.9.0.jar:?]
+	at FancyNpcs-2.9.0.jar/de.oliver.fancynpcs.FancyNpcs.onDisable(FancyNpcs.java:367) ~[FancyNpcs-2.9.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:612) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1019) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+[01:12:17] [Thread-0/INFO]: [WorldEdit] Disabling WorldEdit v7.3.18+7298-4383852
+[01:12:17] [Thread-0/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:12:17] [Thread-0/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[01:12:17] [Thread-0/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[01:12:17] [Thread-0/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[01:12:17] [Thread-0/INFO]: [LuckPerms] Starting shutdown process...
+[01:12:17] [Thread-0/INFO]: [LuckPerms] Closing storage...
+[01:12:17] [Thread-0/INFO]: [LuckPerms] Goodbye!
+[01:12:17] [Thread-0/INFO]: Saving players
+[01:12:17] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
+java.lang.IllegalStateException: null
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:129) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:947) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:943) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1028) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:917) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:985) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:26) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+[01:12:19] [Server thread/ERROR]: An unexpected error while handling a WorldEdit command
+java.lang.IllegalStateException: No state for ID 0
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.collection.Int2BaseBlockMap.assumeAsBlock(Int2BaseBlockMap.java:65) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.collection.Int2BaseBlockMap$1$1.next(Int2BaseBlockMap.java:107) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.collection.Int2BaseBlockMap$1$1.next(Int2BaseBlockMap.java:88) ~[worldedit-bukkit-7.3.18.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:74) ~[?:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.bukkit.fastutil.ints.Int2ObjectMap.forEach(Int2ObjectMap.java:263) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.collection.BlockMap.lambda$forEach$3(BlockMap.java:174) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.bukkit.fastutil.longs.Long2ObjectOpenHashMap.forEach(Long2ObjectOpenHashMap.java:550) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.collection.BlockMap.forEach(BlockMap.java:173) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.extent.buffer.internal.BatchingExtent$1.resume(BatchingExtent.java:90) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:91) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.function.operation.Operations.completeBlindly(Operations.java:74) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.EditSession.internalFlushSession(EditSession.java:1008) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.EditSession.close(EditSession.java:952) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:515) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.bukkit.WorldEditPlugin.onCommand(WorldEditPlugin.java:392) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55) ~[worldedit-bukkit-7.3.18.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:352) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:12:19] [Server thread/ERROR]: Could not dispatch event: com.sk89q.worldedit.event.platform.CommandEvent@208d4dc6 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.bukkit.WorldEditPlugin.onCommand(WorldEditPlugin.java:392) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55) ~[worldedit-bukkit-7.3.18.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:352) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: The plugin classloader for WorldEdit has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleUnknownException(PlatformCommandManager.java:601) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:567) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[worldedit-bukkit-7.3.18.jar:?]
+	... 28 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleUnknownException(PlatformCommandManager.java:601) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:567) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[worldedit-bukkit-7.3.18.jar:?]
+	at worldedit-bukkit-7.3.18.jar/com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[worldedit-bukkit-7.3.18.jar:?]
+	... 28 more

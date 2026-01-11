@@ -1,0 +1,138 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&6w&eww.domain.com'
+  - '&ew&6w&ew.domain.com'
+  - '&eww&6w&e.domain.com'
+  - '&ewww&6.&edomain.com'
+  - '&ewww.&6d&eomain.com'
+  - '&ewww.d&6o&emain.com'
+  - '&ewww.do&6m&eain.com'
+  - '&ewww.dom&6a&ein.com'
+  - '&ewww.doma&6i&en.com'
+  - '&ewww.domai&6n&e.com'
+  - '&ewww.domain&6.&ecom'
+  - '&ewww.domain.&6c&eom'
+  - '&ewww.domain.c&6o&em'
+  - '&ewww.domain.co&6m'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+solarking:
+  change-interval: 100
+  texts:
+  - "&#FE9908ꜱ&#FF9200ᴏ&#FE9908ʟ&#FCA00Fᴀ&#FBA617ʀ&#F9AD1Eᴋ&#F8B426ɪ&#F6BB2Dɴ&#F5C235ɢ &#F3C93Cɴ&#F2CF44ᴇ&#F0D64Bᴛ&#EFDD53ᴡ&#EDE45Aᴏ&#ECEB62ʀ&#EAF169ᴋ"
+  - "&#FCA00Fꜱ&#FE9908ᴏ&#FF9200ʟ&#FE9908ᴀ&#FCA00Fʀ&#FBA617ᴋ&#F9AD1Eɪ&#F8B426ɴ&#F6BB2Dɢ &#F5C235ɴ&#F3C93Cᴇ&#F2CF44ᴛ&#F0D64Bᴡ&#EFDD53ᴏ&#EDE45Aʀ&#ECEB62ᴋ"
+  - "&#FBA617ꜱ&#FCA00Fᴏ&#FE9908ʟ&#FF9200ᴀ&#FE9908ʀ&#FCA00Fᴋ&#FBA617ɪ&#F9AD1Eɴ&#F8B426ɢ &#F6BB2Dɴ&#F5C235ᴇ&#F3C93Cᴛ&#F2CF44ᴡ&#F0D64Bᴏ&#EFDD53ʀ&#EDE45Aᴋ"
+  - "&#F9AD1Eꜱ&#FBA617ᴏ&#FCA00Fʟ&#FE9908ᴀ&#FF9200ʀ&#FE9908ᴋ&#FCA00Fɪ&#FBA617ɴ&#F9AD1Eɢ &#F8B426ɴ&#F6BB2Dᴇ&#F5C235ᴛ&#F3C93Cᴡ&#F2CF44ᴏ&#F0D64Bʀ&#EFDD53ᴋ"
+  - "&#F8B426ꜱ&#F9AD1Eᴏ&#FBA617ʟ&#FCA00Fᴀ&#FE9908ʀ&#FF9200ᴋ&#FE9908ɪ&#FCA00Fɴ&#FBA617ɢ &#F9AD1Eɴ&#F8B426ᴇ&#F6BB2Dᴛ&#F5C235ᴡ&#F3C93Cᴏ&#F2CF44ʀ&#F0D64Bᴋ"
+  - "&#F6BB2Dꜱ&#F8B426ᴏ&#F9AD1Eʟ&#FBA617ᴀ&#FCA00Fʀ&#FE9908ᴋ&#FF9200ɪ&#FE9908ɴ&#FCA00Fɢ &#FBA617ɴ&#F9AD1Eᴇ&#F8B426ᴛ&#F6BB2Dᴡ&#F5C235ᴏ&#F3C93Cʀ&#F2CF44ᴋ"
+  - "&#F5C235ꜱ&#F6BB2Dᴏ&#F8B426ʟ&#F9AD1Eᴀ&#FBA617ʀ&#FCA00Fᴋ&#FE9908ɪ&#FF9200ɴ&#FE9908ɢ &#FCA00Fɴ&#FBA617ᴇ&#F9AD1Eᴛ&#F8B426ᴡ&#F6BB2Dᴏ&#F5C235ʀ&#F3C93Cᴋ"
+  - "&#F3C93Cꜱ&#F5C235ᴏ&#F6BB2Dʟ&#F8B426ᴀ&#F9AD1Eʀ&#FBA617ᴋ&#FCA00Fɪ&#FE9908ɴ&#FF9200ɢ &#FE9908ɴ&#FCA00Fᴇ&#FBA617ᴛ&#F9AD1Eᴡ&#F8B426ᴏ&#F6BB2Dʀ&#F5C235ᴋ"
+  - "&#F2CF44ꜱ&#F3C93Cᴏ&#F5C235ʟ&#F6BB2Dᴀ&#F8B426ʀ&#F9AD1Eᴋ&#FBA617ɪ&#FCA00Fɴ&#FE9908ɢ &#FF9200ɴ&#FE9908ᴇ&#FCA00Fᴛ&#FBA617ᴡ&#F9AD1Eᴏ&#F8B426ʀ&#F6BB2Dᴋ"
+  - "&#F0D64Bꜱ&#F2CF44ᴏ&#F3C93Cʟ&#F5C235ᴀ&#F6BB2Dʀ&#F8B426ᴋ&#F9AD1Eɪ&#FBA617ɴ&#FCA00Fɢ &#FE9908ɴ&#FF9200ᴇ&#FE9908ᴛ&#FCA00Fᴡ&#FBA617ᴏ&#F9AD1Eʀ&#F8B426ᴋ"
+  - "&#EFDD53ꜱ&#F0D64Bᴏ&#F2CF44ʟ&#F3C93Cᴀ&#F5C235ʀ&#F6BB2Dᴋ&#F8B426ɪ&#F9AD1Eɴ&#FBA617ɢ &#FCA00Fɴ&#FE9908ᴇ&#FF9200ᴛ&#FE9908ᴡ&#FCA00Fᴏ&#FBA617ʀ&#F9AD1Eᴋ"
+  - "&#EDE45Aꜱ&#EFDD53ᴏ&#F0D64Bʟ&#F2CF44ᴀ&#F3C93Cʀ&#F5C235ᴋ&#F6BB2Dɪ&#F8B426ɴ&#F9AD1Eɢ &#FBA617ɴ&#FCA00Fᴇ&#FE9908ᴛ&#FF9200ᴡ&#FE9908ᴏ&#FCA00Fʀ&#FBA617ᴋ"
+  - "&#ECEB62ꜱ&#EDE45Aᴏ&#EFDD53ʟ&#F0D64Bᴀ&#F2CF44ʀ&#F3C93Cᴋ&#F5C235ɪ&#F6BB2Dɴ&#F8B426ɢ &#F9AD1Eɴ&#FBA617ᴇ&#FCA00Fᴛ&#FE9908ᴡ&#FF9200ᴏ&#FE9908ʀ&#FCA00Fᴋ"
+  - "&#EAF169ꜱ&#ECEB62ᴏ&#EDE45Aʟ&#EFDD53ᴀ&#F0D64Bʀ&#F2CF44ᴋ&#F3C93Cɪ&#F5C235ɴ&#F6BB2Dɢ &#F8B426ɴ&#F9AD1Eᴇ&#FBA617ᴛ&#FCA00Fᴡ&#FE9908ᴏ&#FF9200ʀ&#FE9908ᴋ"
+  - "&#E9F871ꜱ&#EAF169ᴏ&#ECEB62ʟ&#EDE45Aᴀ&#EFDD53ʀ&#F0D64Bᴋ&#F2CF44ɪ&#F3C93Cɴ&#F5C235ɢ &#F6BB2Dɴ&#F8B426ᴇ&#F9AD1Eᴛ&#FBA617ᴡ&#FCA00Fᴏ&#FE9908ʀ&#FF9200ᴋ"
+  - "&#E7FF78ꜱ&#E9F871ᴏ&#EAF169ʟ&#ECEB62ᴀ&#EDE45Aʀ&#EFDD53ᴋ&#F0D64Bɪ&#F2CF44ɴ&#F3C93Cɢ &#F5C235ɴ&#F6BB2Dᴇ&#F8B426ᴛ&#F9AD1Eᴡ&#FBA617ᴏ&#FCA00Fʀ&#FE9908ᴋ"
+  - "&#E9F871ꜱ&#E7FF78ᴏ&#E9F871ʟ&#EAF169ᴀ&#ECEB62ʀ&#EDE45Aᴋ&#EFDD53ɪ&#F0D64Bɴ&#F2CF44ɢ &#F3C93Cɴ&#F5C235ᴇ&#F6BB2Dᴛ&#F8B426ᴡ&#F9AD1Eᴏ&#FBA617ʀ&#FCA00Fᴋ"
+  - "&#EAF169ꜱ&#E9F871ᴏ&#E7FF78ʟ&#E9F871ᴀ&#EAF169ʀ&#ECEB62ᴋ&#EDE45Aɪ&#EFDD53ɴ&#F0D64Bɢ &#F2CF44ɴ&#F3C93Cᴇ&#F5C235ᴛ&#F6BB2Dᴡ&#F8B426ᴏ&#F9AD1Eʀ&#FBA617ᴋ"
+  - "&#ECEB62ꜱ&#EAF169ᴏ&#E9F871ʟ&#E7FF78ᴀ&#E9F871ʀ&#EAF169ᴋ&#ECEB62ɪ&#EDE45Aɴ&#EFDD53ɢ &#F0D64Bɴ&#F2CF44ᴇ&#F3C93Cᴛ&#F5C235ᴡ&#F6BB2Dᴏ&#F8B426ʀ&#F9AD1Eᴋ"
+  - "&#EDE45Aꜱ&#ECEB62ᴏ&#EAF169ʟ&#E9F871ᴀ&#E7FF78ʀ&#E9F871ᴋ&#EAF169ɪ&#ECEB62ɴ&#EDE45Aɢ &#EFDD53ɴ&#F0D64Bᴇ&#F2CF44ᴛ&#F3C93Cᴡ&#F5C235ᴏ&#F6BB2Dʀ&#F8B426ᴋ"
+  - "&#EFDD53ꜱ&#EDE45Aᴏ&#ECEB62ʟ&#EAF169ᴀ&#E9F871ʀ&#E7FF78ᴋ&#E9F871ɪ&#EAF169ɴ&#ECEB62ɢ &#EDE45Aɴ&#EFDD53ᴇ&#F0D64Bᴛ&#F2CF44ᴡ&#F3C93Cᴏ&#F5C235ʀ&#F6BB2Dᴋ"
+  - "&#F0D64Bꜱ&#EFDD53ᴏ&#EDE45Aʟ&#ECEB62ᴀ&#EAF169ʀ&#E9F871ᴋ&#E7FF78ɪ&#E9F871ɴ&#EAF169ɢ &#ECEB62ɴ&#EDE45Aᴇ&#EFDD53ᴛ&#F0D64Bᴡ&#F2CF44ᴏ&#F3C93Cʀ&#F5C235ᴋ"
+  - "&#F2CF44ꜱ&#F0D64Bᴏ&#EFDD53ʟ&#EDE45Aᴀ&#ECEB62ʀ&#EAF169ᴋ&#E9F871ɪ&#E7FF78ɴ&#E9F871ɢ &#EAF169ɴ&#ECEB62ᴇ&#EDE45Aᴛ&#EFDD53ᴡ&#F0D64Bᴏ&#F2CF44ʀ&#F3C93Cᴋ"
+  - "&#F3C93Cꜱ&#F2CF44ᴏ&#F0D64Bʟ&#EFDD53ᴀ&#EDE45Aʀ&#ECEB62ᴋ&#EAF169ɪ&#E9F871ɴ&#E7FF78ɢ &#E9F871ɴ&#EAF169ᴇ&#ECEB62ᴛ&#EDE45Aᴡ&#EFDD53ᴏ&#F0D64Bʀ&#F2CF44ᴋ"
+  - "&#F5C235ꜱ&#F3C93Cᴏ&#F2CF44ʟ&#F0D64Bᴀ&#EFDD53ʀ&#EDE45Aᴋ&#ECEB62ɪ&#EAF169ɴ&#E9F871ɢ &#E7FF78ɴ&#E9F871ᴇ&#EAF169ᴛ&#ECEB62ᴡ&#EDE45Aᴏ&#EFDD53ʀ&#F0D64Bᴋ"
+  - "&#F6BB2Dꜱ&#F5C235ᴏ&#F3C93Cʟ&#F2CF44ᴀ&#F0D64Bʀ&#EFDD53ᴋ&#EDE45Aɪ&#ECEB62ɴ&#EAF169ɢ &#E9F871ɴ&#E7FF78ᴇ&#E9F871ᴛ&#EAF169ᴡ&#ECEB62ᴏ&#EDE45Aʀ&#EFDD53ᴋ"
+  - "&#F8B426ꜱ&#F6BB2Dᴏ&#F5C235ʟ&#F3C93Cᴀ&#F2CF44ʀ&#F0D64Bᴋ&#EFDD53ɪ&#EDE45Aɴ&#ECEB62ɢ &#EAF169ɴ&#E9F871ᴇ&#E7FF78ᴛ&#E9F871ᴡ&#EAF169ᴏ&#ECEB62ʀ&#EDE45Aᴋ"
+  - "&#F9AD1Eꜱ&#F8B426ᴏ&#F6BB2Dʟ&#F5C235ᴀ&#F3C93Cʀ&#F2CF44ᴋ&#F0D64Bɪ&#EFDD53ɴ&#EDE45Aɢ &#ECEB62ɴ&#EAF169ᴇ&#E9F871ᴛ&#E7FF78ᴡ&#E9F871ᴏ&#EAF169ʀ&#ECEB62ᴋ"
+  - "&#FBA617ꜱ&#F9AD1Eᴏ&#F8B426ʟ&#F6BB2Dᴀ&#F5C235ʀ&#F3C93Cᴋ&#F2CF44ɪ&#F0D64Bɴ&#EFDD53ɢ &#EDE45Aɴ&#ECEB62ᴇ&#EAF169ᴛ&#E9F871ᴡ&#E7FF78ᴏ&#E9F871ʀ&#EAF169ᴋ"
+  - "&#FCA00Fꜱ&#FBA617ᴏ&#F9AD1Eʟ&#F8B426ᴀ&#F6BB2Dʀ&#F5C235ᴋ&#F3C93Cɪ&#F2CF44ɴ&#F0D64Bɢ &#EFDD53ɴ&#EDE45Aᴇ&#ECEB62ᴛ&#EAF169ᴡ&#E9F871ᴏ&#E7FF78ʀ&#E9F871ᴋ"
+  - "&#FE9908ꜱ&#FCA00Fᴏ&#FBA617ʟ&#F9AD1Eᴀ&#F8B426ʀ&#F6BB2Dᴋ&#F5C235ɪ&#F3C93Cɴ&#F2CF44ɢ &#F0D64Bɴ&#EFDD53ᴇ&#EDE45Aᴛ&#ECEB62ᴡ&#EAF169ᴏ&#E9F871ʀ&#E7FF78ᴋ"
+  - "&#FF9200ꜱ&#FE9908ᴏ&#FCA00Fʟ&#FBA617ᴀ&#F9AD1Eʀ&#F8B426ᴋ&#F6BB2Dɪ&#F5C235ɴ&#F3C93Cɢ &#F2CF44ɴ&#F0D64Bᴇ&#EFDD53ᴛ&#EDE45Aᴡ&#ECEB62ᴏ&#EAF169ʀ&#E9F871ᴋ"
+Welcome:
+  change-interval: 400
+  texts:
+  - '&#FF9200ʙ_'
+  - '&#FF9200ʙ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ&#EFDB50ɴ&#ECE75Dɪ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ&#EFDB50ɴ&#ECE75Dɪ&#EAF36Bᴅ&#E7FF78ᴏ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ&#EFDB50ɴ&#ECE75Dɪ&#EAF36Bᴅ&#E7FF78ᴏ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ&#EFDB50ɴ&#ECE75Dɪ&#EAF36Bᴅ&#E7FF78ᴏ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ&#EFDB50ɴ&#ECE75Dɪ&#EAF36Bᴅ&#E7FF78ᴏ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ&#EFDB50ɴ&#ECE75Dɪ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ&#F4C235ᴠ&#F2CF43ᴇ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ&#F7B628ɴ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ&#FAAA1Bᴇ_'
+  - '&#FF9200ʙ&#FC9E0Dɪ_'
+  - '&#FF9200ʙ_'
+  - '&#FF9200ʙ_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

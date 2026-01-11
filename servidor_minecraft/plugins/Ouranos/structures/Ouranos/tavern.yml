@@ -1,0 +1,22 @@
+# ######################
+# Build Configuration #
+# ######################
+
+# The NPCs and mobs in the build
+
+npcs:
+  npc_1: ouranos:TavernKeeper
+
+mobs: []
+
+# The probability to place the structure in the world
+# This probability will be computed with other structures probabilities to determine which structure to place
+# In other words, higher this value compared to the other structures, higher the placement probability
+probability: 1.0
+
+# The biomes the structure can be placed, separated by commas (,)
+# Use "all" if you want the biome to be placed in every biome
+biomes: all
+
+# The chest loots (must be ProbabilityItem items)
+chest_loots: []

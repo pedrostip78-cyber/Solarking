@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.github.benmanes.caffeine
+Build-Jdk-Spec: 11
+Bundle-Description: A high performance caching library
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.github.ben-manes.caffeine
+Bundle-SymbolicName: com.github.ben-manes.caffeine
+Bundle-Version: 3.1.8
+Export-Package: com.github.benmanes.caffeine.cache;uses:="com.github.ben
+ manes.caffeine.cache.stats";version="3.1.8",com.github.benmanes.caffein
+ e.cache.stats;uses:="com.github.benmanes.caffeine.cache";version="3.1.8
+ ",com.github.benmanes.caffeine;version="3.1.8"
+Implementation-Title: A high performance caching library
+Implementation-Version: 3.1.8
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

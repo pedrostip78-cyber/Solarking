@@ -1,0 +1,20 @@
+#######################
+#  NPC Configuration  #
+#######################
+
+# npc_name : the displayed name in the world for Librarian npc
+npc_name: "&cLibrarian"
+
+# inventory_name : the name of the Librarian inventory
+inventory_name: "&cLibrarian"
+
+# shop_items : items sold by the Librarian
+shop_items:
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:BOOK"
+  probability: 1.0
+  price: 20.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:WRITABLE_BOOK"
+  probability: 1.0
+  price: 50.0

@@ -1,0 +1,13 @@
+#######################
+#  NPC Configuration  #
+#######################
+
+# npc_name : the displayed name in the world for ItemMaster npc
+npc_name: "&cItem Master"
+
+# inventory_name : the name of the ItemMaster inventory
+inventory_name: "&cItem Master"
+
+# max_size : the amount of available inventories in the ItemMaster
+# Each inventory is 45 slots. If size=10, the maximum amount of possible objects stored is (45-2)*10=430
+max_size: 10

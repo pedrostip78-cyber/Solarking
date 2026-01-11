@@ -1,0 +1,20 @@
+# ######################
+# Build Configuration #
+# ######################
+
+# The NPCs and mobs in the build
+
+npcs:
+  npc_1: ouranos:none
+  npc_4: ouranos:CoinMaster
+  npc_5: ouranos:ItemMaster
+  npc_2: ouranos:none
+  npc_3: ouranos:none
+  npc_8: ouranos:none
+  npc_6: ouranos:none
+  npc_7: ouranos:none
+
+mobs: []
+
+# The probability to place the build in one city
+probability: 1.0

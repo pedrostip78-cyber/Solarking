@@ -1,0 +1,54 @@
+# These are dialogs said by traditional villagers
+# Lines preceded by "#" won't be read
+Wind carries tales of forgotten realms and ancient battles.
+Nature's beauty conceals its own dangers; watch your step.
+Silence has its own language; learn to appreciate it.
+The night sky tells stories of distant galaxies beyond stars.
+Every rustle in the leaves is a decipherable story.
+In the wilderness, time dances without clocks or calendars.
+The rust on this blade narrates battles and vanquished foes.
+The warmth of the fire speaks louder than words; share its secrets.
+Footprints in the mud tell silent tales of unseen creatures.
+The distant howl of a wolf is nature's untamed lullaby.
+A worn map unfolds its saga—paths trodden, adventures had.
+The taste of wild berries evokes forgotten memories.
+Ancient trees speak in the language of rings.
+The echoes of a distant waterfall carry nature's symphony.
+The solitary owl's call serves as a creature's warning.
+Tracks in the snow tell a chilling tale of nocturnal hunters.
+A lone flower in the vast expanse is a testament to resilience.
+A skipping stone's ripples resonate with the past.
+The crackling of a campfire tells stories of nomads and wayfarers.
+Pure spring water refreshes both body and soul.
+A lone standing stone serves as a sentinel of a forgotten era.
+Wind gusts carry whispers of unseen lands.
+Ancient ruins are silent witnesses to lost civilizations.
+The distant call of an eagle speaks of freedom.
+Dew-kissed grass holds tales of creatures under the moonlight.
+Shifting sands unveil buried secrets.
+The flicker of fireflies in the night serves as a silent lantern.
+A grove of trees is a living library of wind-written stories.
+Hollow echoes of a cave tell of hidden mysteries.
+A lone boulder is a silent sentinel through time.
+The scent of pine needles tells stories of dense forests.
+A feather caught in the breeze is a message from a distant messenger.
+The babbling brook sings a song of flowing water and shifting stones.
+Shadows on canyon walls create a transient mural of dreams.
+The distant call of a falcon carries the spirit of untamed skies.
+Moss-covered rocks recount the patient passage of time.
+The mountain peak's stare whispers tales of resilience.
+The hidden waterfall's pulse echoes as a heartbeat in the valley.
+A field of wildflowers is a story of nature's artistry.
+The distant rumble of thunder is a reminder of heavenly stories.
+An untouched snow field is a blank canvas awaiting footprints.
+Sunlight through leaves tells a tale of warmth in the forest.
+A gathering of stones serves as a silent council preserving history.
+The dance of fireflies is a silent celebration in the darkness.
+The taste of wild honey is a tale of bees and blossoms.
+The lone coyote's cry is part of a nightly wilderness choir.
+Rustling leaves carry a conversation carried by the wind.
+Earth's fragrance after rainfall is a reminder of renewal.
+Mushrooms on the forest floor create a hidden village of tiny inhabitants.
+The sight of a shooting star is a fleeting glimpse into cosmic stories.
+
+# 277ISR8IHK67XTDBH9Y4GPX

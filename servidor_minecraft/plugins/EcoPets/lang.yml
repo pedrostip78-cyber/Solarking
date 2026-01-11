@@ -1,0 +1,32 @@
+messages:
+  prefix: "&#d977c2&lEcoPets&r &8» &r"
+  no-permission: "&cNo tienes permiso para hacer esto!"
+  not-player: "&cEste comando debe ser ejecutado por un jugador."
+  invalid-command: "&cꜱᴜʙᴄᴏᴍᴀɴᴅᴏ ᴅᴇꜱᴄᴏɴᴏᴄɪᴅᴏ!"
+  reloaded: "ʀᴇᴄᴀʀɢᴀᴅᴏ!"
+
+  needs-player: "&cᴅᴇʙᴇꜱ ᴇꜱᴘᴇᴄɪꜰɪᴄᴀʀ ᴜɴ ᴊᴜɢᴀᴅᴏʀ!"
+  gave-xp: "&fᴛᴜ ʜᴀꜱ ᴅᴀᴅᴏ &a%xp% &fXP ᴀ %player%&f's %pet%&f!"
+  gave-current-xp: "&fᴛᴜ ʜᴀꜱ ᴅᴀᴅᴏ &a%xp% &fXP ᴀ %player%&f's ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛᴜᴀʟᴍᴇɴᴛᴇ ᴀᴄᴛɪᴠᴀ!"
+  no-pet: "&cᴇʟ ᴊᴜɢᴀᴅᴏʀ ɴᴏ ᴛɪᴇɴᴇ ᴜɴᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛɪᴠᴀ.!"
+  reset-xp: "&fʜᴀꜱ ʀᴇɪɴɪᴄɪᴀᴅᴏ %player%&f's %pet%&f XP!"
+  needs-pet: "&cᴅᴇʙᴇꜱ ᴇꜱᴘᴇᴄɪꜰɪᴄᴀʀ ᴜɴᴀ ᴍᴀꜱᴄᴏᴛᴀ!"
+  need-amount: "&cᴅᴇʙᴇꜱ ᴇꜱᴘᴇᴄɪꜰɪᴄᴀʀ ᴜɴᴀ ᴄᴀɴᴛɪᴅᴀᴅ!"
+  invalid-player: "&cᴊᴜɢᴀᴅᴏʀ ɴᴏ ᴠᴀ́ʟɪᴅᴏ!"
+  invalid-pet: "&cᴍᴀꜱᴄᴏᴛᴀ ɴᴏ ᴠᴀ́ʟɪᴅᴀ!"
+  already-has-pet: "&cᴇʟ ᴊᴜɢᴀᴅᴏʀ ʏᴀ ᴛɪᴇɴᴇ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ!"
+  doesnt-have-pet: "&cᴇʟ ᴊᴜɢᴀᴅᴏʀ ɴᴏ ᴛɪᴇɴᴇ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ!"
+  gave-pet: "&fᴇɴᴛʀᴇɢᴀᴅᴏ ᴄᴏɴ ᴇ́xɪᴛᴏ %player%&f ᴀʜᴏʀᴀ ᴛɪᴇɴᴇꜱ ᴀ %pet%&f!"
+  gave-pet-egg: "&fᴇɴᴛʀᴇɢᴀᴅᴏ ᴄᴏɴ ᴇ́xɪᴛᴏ %player%&f ᴀʜᴏʀᴀ ᴛɪᴇɴᴇꜱ ᴀ %pet%&f!"
+  cannot-spawn-pet: "&cʏᴀ ᴛɪᴇɴᴇꜱ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴅᴇꜱʙʟᴏǫᴜᴇᴀᴅᴀ!"
+  pet-spawned: "&fʜᴀꜱ ꜱᴘᴀᴡɴᴇᴀᴅᴏ ᴀ %pet%&f! "
+  invalid-amount: "&cᴄᴀɴᴛɪᴅᴀᴅ ɴᴏ ᴠᴀ́ʟɪᴅᴀ!"
+  pet-already-active: "&cʏᴀ ᴛɪᴇɴᴇꜱ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛɪᴠᴀ!"
+  no-pet-active: "&cɴᴏ ᴛɪᴇɴᴇꜱ ᴜɴᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛɪᴠᴀ!"
+  activated-pet: "&fᴛɪᴇɴᴇꜱ ᴀᴄᴛɪᴠᴏ ᴀ %pet%&f!"
+  deactivated-pet: "&fᴛɪᴇɴᴇꜱ ᴅᴇꜱᴀᴄᴛɪᴠᴀᴅᴏ ᴀ %pet%&f!"
+
+menu:
+  title: "&#BC1010&lᴘ&#C45151&lᴇ&#CC9393&lᴛ&#D4D4D4&lꜱ"
+
+infinity: "∞"

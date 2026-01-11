@@ -1,0 +1,364 @@
+##########################
+# Language Configuration #
+##########################
+
+# ----------- #
+#    Global   #
+# ----------- #
+
+# Message received when player doesn't have enough money to perform action
+not_enough_money: "&cYou don't have enough money"
+
+# Message received when inventory is full
+inventory_full: "&cYour inventory is full"
+
+# ----------- #
+#    Types    #
+# ----------- #
+
+# Translation for "village"
+village_type: "Village"
+
+# Translation for "city"
+city_type: "City"
+
+# ------------------------------- #
+#  Discovered settlement message  #
+# ------------------------------- #
+
+# Message to send to player
+message_settlement_discovered: "New %type% discovered !"
+
+# ----------- #
+#  Mob Arena  #
+# ----------- #
+
+# Message received when the arena is reloading
+cannot_summon_mob: "&cThis arena has been used recently, please wait a bit..."
+
+# ----------- #
+#    NPCs     #
+# ----------- #
+
+# Translation for "Back"
+npc_back: "Back"
+
+# Translation for "Click to move to the previous page"
+npc_last_page: "Click to move to the previous page"
+
+# Translation for "Next"
+npc_next: "Next"
+
+# Translation for "Click to move to the next page"
+npc_next_page: "Click to move to the next page"
+
+# Message received when a player interract the first time with a new Jumper
+jumper_first_interaction: "&aYou can now teleport from and to this %type% !"
+
+# Message received when a player interract with a Jumper and has only one settlement available to travel
+jumper_one_settlement: "&cYou know only one settlement"
+
+# Message received when player tries to use Jumper but doesn't have enough money
+jumper_not_enough_money: "&cYou don't have enough money to request a teleport"
+
+# Message received after player has been teleported to the new location
+jumper_teleported: "&aTeleported to %settlement_name%"
+
+# Translation for "Balance"
+coin_master_balance: "&cBalance"
+
+# The current balance
+coin_master_current_balance: "&aBalance : §7%balance%"
+
+# Translation for "Deposit"
+coin_master_deposit: "&cDeposit"
+
+# Translation for "Withdraw"
+coin_master_withdraw: "&cWithdraw"
+
+# Message received when player withdrew money
+coin_master_money_withdrew: "&aYou withdrew %amount%"
+
+# Message received when player cannot withdraw
+coin_master_cannot_withdraw: "&cPlease talk to CoinMaster to withdraw"
+
+# Message received when player withdrew money
+coin_master_money_deposit: "&aYou deposit %amount%"
+
+# Message received when player cannot deposit
+coin_master_cannot_deposit: "&cPlease talk to CoinMaster to deposit"
+
+# Message received when player start to deposit
+coin_master_start_deposit: "&aYou can now deposit using /deposit command"
+
+# Message received when player start to withdraw
+coin_master_start_withdraw: "&aYou can now deposit using /withdraw command"
+
+# Message received when player initiated withdraw/deposit process but time's up
+expired_process: "&cThe process has expired"
+
+# Message received when the player cancels the process
+cancelled_process: "&aThe process has been cancelled"
+
+# Message received when the player tries to cancel the process but he hasn't any running
+cannot_cancel: "&cYou don't have any running process"
+
+# Message received when player try to initiate another withdraw/deposit process
+existing_process: "&cYou already have a running process"
+
+# Message received when player wants to enter into the arena but didn't talk to gatekeeper first
+arena_gatekeeper_talk: "§cTalk to the Arena Gatekeeper to enter arena"
+
+# Message received when player entered the arena
+arena_gatekeeper_entered: "§aYou entered the arena, use /arenaleave to leave"
+
+# Translation for "Yes"
+arena_accept_message: "Yes"
+
+# Message hovering text "Yes"
+arena_hower_message: "§cClick to move into the arena"
+
+# Message hovering text "Yes"
+arena_entering_message: "§eDo you want to enter into the arena ? "
+
+# Message received when player left the arena
+arena_left: "§aYou left the arena"
+
+# Message received when player wants to leave arena but is not inside
+arena_not_entered: "§cYou are not in the arena"
+
+# Translation for "Buy horse"
+buy_horse_item: "Buy horses"
+
+# Translation for "Click to buy a new horse"
+buy_horse_item_sub: "Click to buy a new horse"
+
+# Translation for "Manage horses"
+manage_horses_item: "Manage horses"
+
+# Translation for "Click to manage horses"
+manage_horses_item_sub: "Click to manage horses"
+
+# Translation for "Buy items"
+items_horses_item: "Buy items"
+
+# Translation for "Click to manage horses"
+items_horses_item_sub: "Click to buy items"
+
+# Equestrian inventory name - buy items
+equestrian_inventory_name_buy_items: "§cBuy items"
+
+# Equestrian inventory name - manage horses
+equestrian_inventory_name_manage_horses: "§cManage horses"
+
+# Equestrian inventory name - buy horses
+equestrian_inventory_name_buy_horses: "§cBuy horses"
+
+# Title for each offer in the horse buy inventory
+equestrian_inventory_horse_offer: "§cHorse %number%"
+
+# Horse attribute speed
+horse_attribute_speed: "Speed"
+
+# Horse attribute max health
+horse_attribute_max_health: "Max Health"
+
+# Horse attribute color
+horse_attribute_color: "Color"
+
+# Horse attribute style
+horse_attribute_style: "Style"
+
+# Horse attribute price
+horse_attribute_price: "Price"
+
+# Name of the transaction inventory
+transaction_inventory_name: "§eAccept transaction ?"
+
+# Translation for "Cancel"
+transaction_cancel: "Cancel"
+
+# Translation for "Click to cancel transaction"
+transaction_cancel_sub: "Click to cancel the transaction"
+
+# Translation for "Accept"
+transaction_accept: "Accept"
+
+# Translation for "Click to accept transaction"
+transaction_accept_sub: "Click to accept transaction"
+
+# Message received when player bought a new horse
+horse_bought: "&aYou bought a new horse ! Talk to the Equestrian Master to equip it"
+
+# Message received when player has too many horses
+too_many_horses: "&cYou can't have more than %amount% horses"
+
+# Translation for "Unnamed Horse"
+unnamed_horse: "&c%player%'s Horse"
+
+# Translation for "Sell horse"
+sell_horse: "Sell horse"
+
+# Translation for "Click to sell your horse for %price%"
+sell_horse_sub: "Click to sell your horse for %price%"
+
+# Translation for "Equip horse"
+equip_horse: "Equip horse"
+
+# Translation for "Click to equip horse"
+equip_horse_sub: "Click to equip horse"
+
+# Translation for "Equipped"
+equipped_horse: "Equipped"
+
+# Translation for "Click to unequip"
+equipped_horse_sub: "Click to unequip"
+
+# Message received when player sold a horse
+horse_sold: "&aYou sold your horse for %price%"
+
+# Message received when tries to sell equipped horse
+selling_equipped_horse: "&cYou cannot sell equipped horse"
+
+# Message received when player wants to spawn horse but he's not equipped
+no_horse: "&cYou don't have any equipped horse"
+
+# Message received when player wants to spawn horse but he's already spawned
+horse_already_here: "&cYour horse is already here"
+
+# Message received when player spawned horse
+horse_spawned: "&aYou spawned your horse"
+
+# Message received when player despawned horse
+horse_despawned: "&aYou despawned your horse"
+
+# Message received when player wants to despawn horse but he's not spawned
+cannot_despawn: "&cYou don't have any spawned horse"
+
+# The name of the item representing a horse
+horse_item_title: "&cHorse"
+
+# The end lores of the horse item
+horse_item_lore:
+- "&7This is a horse item"
+- "&7Interact with the Equestrian Master to transform it"
+
+# Translation for "Transform to item"
+transform_horse_to_item: "Transform to item"
+
+# Translation for "Transform to item"
+transform_horse_to_item_sub: "Click to receive a horse item"
+
+# Message received when player tries to transform equipped horse into item
+transform_equipped_horse: "&cYou cannot transform your equipped horse"
+
+# Message received when player transformed horse to item
+horse_item_received: "&aYour horse has been transformed to item"
+
+# Message received when player receives a new horse
+new_horse_received: "&aYou received a new horse"
+
+# Name of the renaming scroll
+horse_renaming_scroll_item_name: "&cHorse renaming scroll"
+
+# Lores of the empty renaming scroll
+horse_renaming_scroll_empty_item_lores:
+- "&7Use /updatescroll <name> to set a name to the scroll"
+
+# Lores of the printed renaming scroll
+horse_renaming_scroll_printed_item_lores:
+  - "&7Name : %name%"
+  - "§7Click on your horse to use"
+
+# Message received when player tries to rename a horse that isn't his
+not_your_horse: "§cThis is not your horse"
+
+# Translation for "Previous"
+previous_items: "Previous"
+
+# Translation for "Click to see previous items"
+previous_items_sub: "Click to see previous items"
+
+# Translation for "Next"
+next_items: "Next"
+
+# Translation for "Click to see next items"
+next_items_sub: "Click to see next items"
+
+# Name for inventory choosing a quantity
+quantity_inventory_name: "§cChoose a quantity"
+
+# Translation for "Informations"
+informations_item: "Informations"
+
+# Translation for "Unit price"
+price_item: "Unit price"
+
+# Translation for "Quantity"
+quantity_item: "Quantity"
+
+# Translation for "Total price"
+total_price_item: "Total price"
+
+# Translation for "Validate"
+validate_item_quantity: "Validate"
+
+# Translation for "Click to validate the quantity"
+validate_item_quantity_sub: "Click to validate the quantity"
+
+# Translation for "Remove %quantity%"
+change_quantity_remove: "Remove %quantity%"
+
+# Translation for "Click to remove %quantity%"
+change_quantity_remove_sub: "Click to remove %quantity%"
+
+# Translation for "Remove %quantity%"
+change_quantity_add: "Add %quantity%"
+
+# Translation for "Click to add %quantity%"
+change_quantity_add_sub: "Click to add %quantity%"
+
+# Translation for "Buy items"
+auctioneer_buy_items: "Buy items"
+
+# Translation for "Click to see items on sale"
+auctioneer_buy_items_sub: "Click to see items on sale"
+
+# Translation for "Add items"
+auctioneer_add_items: "Add items"
+
+# Translation for "Click to sell your items"
+auctioneer_add_items_sub: "Click to sell your items"
+
+# Translation for "anage items"
+auctioneer_manage_items: "Manage items"
+
+# Translation for "Click to manage your items on sale"
+auctioneer_manage_items_sub: "Click to manage your items on sale"
+
+# Message received when player tries to buy unavailable item
+auctioneer_unavailable_item: "This item is no longer available"
+
+# Message received when player talk to auctioneer to sell items
+auctioneer_start_process: "&aYou can now sell items, use \"/auctioneer sell <price>\" to sell the item in your hand"
+
+# Message received when the process ends (player walk away from auctioneer)
+auctioneer_end_process: "&eThe process has been cancelled"
+
+# Message received when player add item to the auctioneer
+auctioneer_added_item: "&aYour item is now on sale at the auctioneer"
+
+# Message received when player remove item from the auctioneer
+auctioneer_removed_item: "&aYour item has been removed"
+
+# Translation for "Click to remove item"
+auctioneer_click_to_remove: "Click to remove item"
+
+# Name for the buying items inventory
+auctioneer_buy_items_inventory_name: "&cBuy items"
+
+# Name for the managing items inventory
+auctioneer_manage_items_inventory_name: "&cManage items"
+
+# Message received after purchase
+auctioneer_item_purchased: "&aItem Purchased"

@@ -1,0 +1,29 @@
+# For internal storage use only, do not modify.
+
+legacy-data-migrated: true
+previous-handler: yaml
+player:
+  9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c:
+    ecojobs:miner_xp: 4.0
+    talismans:talisman_bag: []
+    ecopets:sea_serpent_level: 1
+    ecopets:skeleton_level: 1
+    ecopets:blaze_level: 5
+    ecopets:elephant_level: 1
+    ecopets:ravager_level: 1
+    eco:player_name: §x§f§f§9§2§0§0§lꜰ§x§f§c§a§2§1§1§lᴜ§x§f§8§b§1§2§2§lɴ§x§f§5§c§1§3§3§lᴅ§x§f§1§d§0§4§5§lᴀ§x§e§e§e§0§5§6§lᴅ§x§e§a§e§f§6§7§lᴏ§x§e§7§f§f§7§8§lʀ§x§f§8§b§1§2§2apolofs§r
+    ecopets:giraffe_level: 1
+    ecopets:mancubus_level: 1
+    ecopets:golden_dragon_level: 1
+    ecopets:tiger_level: 1
+    ecopets:active_pet: blaze
+    ecopets:penguin_level: 1
+    ecopets:vampire_level: 1
+    ecopets:unicorn_level: 1
+    ecopets:blaze_xp: 137.0
+    talismans:bag: []
+    ecojobs:active_jobs:
+    - miner
+  00000000-0000-0000-0000-000000000000:
+    eco:local_server_id: da332f36-bf3d-45fe-9689-6941b467b9b6
+

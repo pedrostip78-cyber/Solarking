@@ -1,0 +1,91 @@
+spawn-egg:
+  item: horse_spawn_egg unbreaking:1 hide_enchants
+  lore:
+  - ''
+  - '&#FFFFFFᴅᴀ ᴄʟɪᴄᴋ ᴅᴇʀᴇᴄʜᴏ ᴘᴀʀᴀ'
+  - '&#FFFFFFᴅᴇꜱʙʟᴏǫᴜᴇᴀʀ ᴀ &#FCA1D2&lᴜ&#FCADD8&lɴ&#FDB9DD&lɪ&#FDC4E3&lᴄ&#FED0E9&lᴏ&#FEDCEE&lʀ&#FEE8F4&lɴ&#FFF3F9&lɪ&#FFFFFF&lᴏ'
+  recipe: []
+  craftable: false
+  enabled: true
+  name: '&#FCA1D2&lᴜ&#FCADD8&lɴ&#FDB9DD&lɪ&#FDC4E3&lᴄ&#FED0E9&lᴏ&#FEDCEE&lʀ&#FEE8F4&lɴ&#FFF3F9&lɪ&#FFFFFF&lᴏ'
+xp-gain-methods:
+- multiplier: 0.5
+  id: melee_attack
+  conditions: []
+icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiMzNiN2EzYjI0Zjc2YmQ4MGE2NWMzYTkzM2U3MTg4YmUzNTg0ODczNDJiZTE0M2MyMmE3NTgwYjRkMDBlMSJ9fX0=
+description: '&#FFFFFFꜱᴜʙᴇ ᴅᴇ ɴɪᴠᴇʟ ɪɴꜰʟɪɢɪᴇɴᴅᴏ ᴅᴀñᴏ ᴄᴜᴇʀᴘᴏ ᴀ ᴄᴜᴇʀᴘᴏ'
+effects-description:
+  '1':
+  - '&8» &#FFFFFFᴅᴀ ᴜɴ ʙᴏɴᴜꜱ ᴅᴇ &a+%damage_multiplier%&#FFFFFF ᴇɴ'
+  - '   &#FFFFFFᴅᴀñᴏ ᴄᴜᴇʀᴘᴏ ᴀ ᴄᴜᴇʀᴘᴏ'
+level-commands: []
+level-up-messages:
+  '1':
+  - '&8» &#FFFFFFᴅᴀ ᴜɴ ʙᴏɴᴜꜱ ᴅᴇ &a+%damage_multiplier%%&8 ᴇɴ'
+  - '   &#FFFFFFᴅᴀñᴏ ᴄᴜᴇʀᴘᴏ ᴀ ᴄᴜᴇʀᴘᴏ'
+level-placeholders:
+- id: damage_multiplier
+  value: '%level%'
+level-xp-requirements:
+- 50
+- 125
+- 200
+- 300
+- 500
+- 750
+- 1000
+- 1500
+- 2000
+- 3500
+- 5000
+- 7500
+- 10000
+- 15000
+- 20000
+- 30000
+- 50000
+- 75000
+- 100000
+- 200000
+- 300000
+- 400000
+- 500000
+- 600000
+- 700000
+- 800000
+- 900000
+- 1000000
+- 1100000
+- 1200000
+- 1300000
+- 1400000
+- 1500000
+- 1600000
+- 1700000
+- 1800000
+- 1900000
+- 2000000
+- 2100000
+- 2200000
+- 2300000
+- 2400000
+- 2500000
+- 2600000
+- 2750000
+- 2900000
+- 3100000
+- 3400000
+- 3700000
+rewards-description:
+  '1':
+  - '&8» &#FFFFFFᴅᴀ ᴜɴ ʙᴏɴᴜꜱ ᴅᴇ &a+%damage_multiplier%%&8 ᴇɴ'
+  - '   &#FFFFFFᴅᴀñᴏ ᴄᴜᴇʀᴘᴏ ᴀ ᴄᴜᴇʀᴘᴏ'
+effects:
+- args:
+    multiplier: '%level% * 0.01 + 1'
+  id: damage_multiplier
+  triggers:
+  - melee_attack
+name: '&#FCA1D2&lᴜ&#FCADD8&lɴ&#FDB9DD&lɪ&#FDC4E3&lᴄ&#FED0E9&lᴏ&#FEDCEE&lʀ&#FEE8F4&lɴ&#FFF3F9&lɪ&#FFFFFF&lᴏ'
+conditions: []
+entity-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiMzNiN2EzYjI0Zjc2YmQ4MGE2NWMzYTkzM2U3MTg4YmUzNTg0ODczNDJiZTE0M2MyMmE3NTgwYjRkMDBlMSJ9fX0=

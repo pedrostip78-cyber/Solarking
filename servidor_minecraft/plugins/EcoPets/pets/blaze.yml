@@ -1,0 +1,93 @@
+name: "&#FC5528&lʙ&#FB803C&lʟ&#FAAA50&lᴀ&#F8D564&lᴢ&#F7FF78&lᴇ"
+description: "&#FF0000ɢ&#FF0B05ᴀ&#FE160Aɴ&#FE2110ᴀ &#FD371Aᴍ&#FD431Fᴀ&#FD4E25ꜱ &#FC642Fx&#FC6F34ᴘ &#FB853Fᴍ&#FA9044ᴀ&#FA9B49ᴛ&#FAA64Eᴀ&#F9B153ɴ&#F9BC59ᴅ&#F9C85Eᴏ &#F8DE68ᴍ&#F8E96Eᴏ&#F7F473ʙ&#F7FF78ꜱ"
+
+entity-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIwNjU3ZTI0YjU2ZTFiMmY4ZmMyMTlkYTFkZTc4OGMwYzI0ZjM2Mzg4YjFhNDA5ZDBjZDJkOGRiYTQ0YWEzYiJ9fX0="
+icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIwNjU3ZTI0YjU2ZTFiMmY4ZmMyMTlkYTFkZTc4OGMwYzI0ZjM2Mzg4YjFhNDA5ZDBjZDJkOGRiYTQ0YWEzYiJ9fX0=
+
+level-xp-requirements:
+  - 50
+  - 125
+  - 200
+  - 300
+  - 500
+  - 750
+  - 1000
+  - 1500
+  - 2000
+  - 3500
+  - 5000
+  - 7500
+  - 10000
+  - 15000
+  - 20000
+  - 30000
+  - 50000
+  - 75000
+  - 100000
+  - 200000
+  - 300000
+  - 400000
+  - 500000
+  - 600000
+  - 700000
+  - 800000
+  - 900000
+  - 1000000
+  - 1100000
+  - 1200000
+  - 1300000
+  - 1400000
+  - 1500000
+  - 1600000
+  - 1700000
+  - 1800000
+  - 1900000
+  - 2000000
+  - 2100000
+  - 2200000
+  - 2300000
+  - 2400000
+  - 2500000
+  - 2600000
+  - 2750000
+  - 2900000
+  - 3100000
+  - 3400000
+  - 3700000
+
+xp-gain-methods:
+  - id: kill
+    multiplier: 1
+
+level-placeholders:
+  - id: "xp_multiplier"
+    value: "%level% * 2"
+
+effects-description:
+  1:
+    - "&6» &7Increased XP gain by %xp_multiplier%%!"
+    -
+rewards-description: []
+
+level-up-messages: [-&eʙʟᴀᴢᴇ ʜᴀ ꜱᴜʙɪᴅᴏ ᴅᴇ ɴɪᴠᴇʟ!]
+
+level-up-effects: []
+
+effects:
+  - id: xp_multiplier
+    args:
+      multiplier: "%level% * 0.02 + 1"
+
+conditions: [ ]
+
+spawn-egg:
+  enabled: true # If the pet should have a spawn egg
+  item: blaze_spawn_egg unbreaking:1 hide_enchants
+  name: "&#FF0000&lʙ&#FD401E&lʟ&#FB803C&lᴀ&#F9BF5A&lᴢ&#F7FF78&lᴇ"
+  lore:
+    - ""
+    - "&eᴅᴀ ᴄʟɪᴄᴋ ᴅᴇʀᴇᴄʜᴏ ᴘᴀʀᴀ"
+    - "&eᴅᴇꜱʙʟᴏǫᴜᴇᴀʀ ᴀ &#FF0000&lʙ&#FD401E&lʟ&#FB803C&lᴀ&#F9BF5A&lᴢ&#F7FF78&lᴇ"
+  craftable: false
+  recipe: []
+  recipe-permission: ecopets.craft.blaze

@@ -1,0 +1,9 @@
+#######################
+#  NPC Configuration  #
+#######################
+
+# npc_name : the displayed name in the world for CoinMaster npc
+npc_name: "&cCoin Master"
+
+# inventory_name : the name of the CoinMaster inventory
+inventory_name: "&cCoin Master"

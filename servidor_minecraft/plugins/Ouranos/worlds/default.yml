@@ -1,0 +1,429 @@
+#######################
+# World Configuration #
+#######################
+
+# List of biomes in the world
+biomes:
+  - Ouranos:SnowyMountain
+  - Ouranos:SnowyPlains
+  - Ouranos:IceCrystalPlains
+  - Ouranos:FrozenOcean
+  - Ouranos:Plains
+  - Ouranos:PeakMountain
+  - Ouranos:Swamp
+  - Ouranos:SakuraPlains
+  - Ouranos:PineForest
+  - Ouranos:FloweryMountain
+  - Ouranos:DeadForest
+  - Ouranos:PineMountain
+  - Ouranos:TemperateOcean
+  - Ouranos:AridMountain
+  - Ouranos:Savanna
+  - Ouranos:Desert
+  - Ouranos:Tropical
+  - Ouranos:WarmOcean
+  - Ouranos:SnowyForest
+  - Ouranos:RockyPlains
+  - Ouranos:Jungle
+#  - Custom:MyBiome
+
+# ------------ #
+#    Cities    #
+# ------------ #
+
+# Choose to display a message to players when entering new city
+message_entering_new_city: true
+
+# Enable or disable cities
+cities_enabled: true
+
+# Enable or disable Ouranos builds
+city_ouranos:
+  arena_enabled: true
+  auction_house_enabled: true
+  bank_enabled: true
+  blacksmith_enabled: true
+  city_hall_enabled: true
+  dealer_enabled: true
+  enchant_tower_enabled: true
+  library_enabled: true
+  market_enabled: true
+  red_house_enabled: false
+  potion_house_enabled: true
+  stable_enabled: true
+  tavern_enabled: true
+
+# Chest loots in cities
+city_chest:
+  - ==: ProbabilityItem
+    item_tag: "ouranos:apple"
+    probability: 0.4
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:diamond"
+    probability: 0.02
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:torch"
+    probability: 0.3
+    quantity_min: 1
+    quantity_max: 3
+  - ==: ProbabilityItem
+    item_tag: "ouranos:anvil"
+    probability: 0.07
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:bread"
+    probability: 0.5
+    quantity_min: 2
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:iron_shovel"
+    probability: 0.05
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:iron_pickaxe"
+    probability: 0.05
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:iron_axe"
+    probability: 0.05
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:bow"
+    probability: 0.05
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:arrow"
+    probability: 0.1
+    quantity_min: 3
+    quantity_max: 12
+  - ==: ProbabilityItem
+    item_tag: "ouranos:coal"
+    probability: 0.07
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:golden_apple"
+    probability: 0.01
+    quantity_min: 1
+    quantity_max: 1
+
+# Place here the name of the custom builds you want to include in the city (the name is the file name without the extension)
+city_custom: []
+
+# ------------ #
+#   Villages   #
+# ------------ #
+
+# Choose to display a message to players when entering new village
+message_entering_new_village: true
+
+# Enable or disable villages
+villages_enabled: true
+
+# Enable or disable Ouranos builds
+village_ouranos:
+  blacksmith_enabled: true
+  city_hall_enabled: true
+  dealer_enabled: true
+  tavern_enabled: true
+
+# Chest loots in villages
+village_chest:
+  - ==: ProbabilityItem
+    item_tag: "ouranos:apple"
+    probability: 0.4
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:emerald"
+    probability: 0.1
+    quantity_min: 1
+    quantity_max: 3
+  - ==: ProbabilityItem
+    item_tag: "ouranos:bread"
+    probability: 0.2
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:iron_ingot"
+    probability: 0.2
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:stick"
+    probability: 0.5
+    quantity_min: 2
+    quantity_max: 4
+
+# Place here the name of the custom builds you want to include in the village (the name is the file name without the extension)
+village_custom: []
+
+# ------------ #
+#  Structures  #
+# ------------ #
+
+# Enable or disable structures
+structures_enabled: true
+
+# Enable or disable Ouranos builds
+structures_ouranos:
+  camp_enabled: true
+  mob_arena_enabled: true
+  ruins_enabled: true
+  ruins_castle_enabled: true
+  ruins_tower_enabled: true
+  tower_enabled: true
+  tavern_enabled: true
+  windmill_enabled: true
+
+
+# Place here the name of the custom builds you want to include as structures (the name is the file name without the extension)
+structures_custom: []
+
+# ------------ #
+#   Dungeons   #
+# ------------ #
+
+# Enable or disable dungeons
+dungeons_enabled: true
+
+# Probability to place a chest in the end of a tunnel in dungeon
+dungeon_end_chest_probability: 0.2
+
+# Probability to place a vein of copper in the end of a tunnel in dungeon
+dungeon_end_copper_probability: 0.2
+
+# Probability to place a vein of diamond in the end of a tunnel in dungeon
+dungeon_end_diamond_probability: 0.2
+
+# Probability to place a vein of gold in the end of a tunnel in dungeon
+dungeon_end_gold_probability: 0.2
+
+# Probability to place a vein of iron in the end of a tunnel in dungeon
+dungeon_end_iron_probability: 0.2
+
+# Probability to place a mob spawner in the end of a tunnel in dungeon
+dungeon_end_mob_probability: 0.1
+
+# Probability to place an ender portal in a dungeon
+dungeon_end_portal_probability: 0.1
+
+# Chest loots in dungeons
+dungeon_chest:
+  - ==: ProbabilityItem
+    item_tag: "ouranos:ender_pearl"
+    probability: 0.2
+    quantity_min: 1
+    quantity_max: 2
+  - ==: ProbabilityItem
+    item_tag: "ouranos:gold_nugget"
+    probability: 0.1
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:ender_eye"
+    probability: 0.1
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:experience_bottle"
+    probability: 0.1
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:bone"
+    probability: 0.4
+    quantity_min: 1
+    quantity_max: 4
+  - ==: ProbabilityItem
+    item_tag: "ouranos:bow"
+    probability: 0.4
+    quantity_min: 1
+    quantity_max: 1
+  - ==: ProbabilityItem
+    item_tag: "ouranos:arrow"
+    probability: 0.5
+    quantity_min: 4
+    quantity_max: 12
+
+
+# ------------ #
+#    Canyons   #
+# ------------ #
+
+# Enable or disable canyons
+canyons_enabled: true
+
+# ------------ #
+#    Paths     #
+# ------------ #
+
+# Enable or disable path caves
+paths_enabled: true
+
+# ------------ #
+#    Caves     #
+# ------------ #
+
+# Enable or disable default caves
+caves_enabled: true
+
+# Enable or disable water caves
+water_caves_enabled: true
+
+# Enable or disable lava caves
+lava_caves_enabled: true
+
+# Enable or disable lightning in water caves
+water_cave_lightning: true
+
+# ------------ #
+#     Ores     #
+# ------------ #
+
+# Choose the ore rates
+# Ore rates will be modulated according to the available amount of blocks in every chunk
+
+ores:
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 20
+    vein_per_chunk_max: 30
+    block: coal_ore          # material or blockdata
+    vein_size_min: 4
+    vein_size_max: 10
+    min_height: 0
+    max_height: 320
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 10
+    vein_per_chunk_max: 30
+    block: iron_ore          # material or blockdata
+    vein_size_min: 2
+    vein_size_max: 8
+    min_height: -64
+    max_height: 320
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 2
+    vein_per_chunk_max: 6
+    block: gold_ore          # material or blockdata
+    vein_size_min: 2
+    vein_size_max: 8
+    min_height: -64
+    max_height: 256
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 3
+    vein_per_chunk_max: 3
+    block: diamond_ore          # material or blockdata
+    vein_size_min: 1
+    vein_size_max: 8
+    min_height: -64
+    max_height: 16
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 8
+    vein_per_chunk_max: 12
+    block: redstone_ore          # material or blockdata
+    vein_size_min: 2
+    vein_size_max: 8
+    min_height: -64
+    max_height: 16
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 3
+    vein_per_chunk_max: 3
+    block: lapis_ore          # material or blockdata
+    vein_size_min: 4
+    vein_size_max: 8
+    min_height: -64
+    max_height: 64
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 4
+    vein_per_chunk_max: 8
+    block: emerald_ore          # material or blockdata
+    vein_size_min: 1
+    vein_size_max: 3
+    min_height: -16
+    max_height: 320
+  - ==: ConfigurationOre
+    vein_per_chunk_min: 8
+    vein_per_chunk_max: 20
+    block: copper_ore          # material or blockdata
+    vein_size_min: 2
+    vein_size_max: 8
+    min_height: -16
+    max_height: 112
+
+# ------------- #
+#   Mob Arena   #
+# ------------- #
+
+# Time in seconds before being able to spawn another mob in arena
+mob_arena_time: 600
+
+# list of mobs available in mob arena
+mob_list:
+- ==: ArenaMob
+  mob_tag: "ouranos:warden_250"
+  probability: 0.2
+  drops:
+  - ==: ProbabilityItem
+    item_tag: "ouranos:netherite_sword[enchantments=sharpness:1][damage=900]"
+    probability: 1
+- ==: ArenaMob
+  mob_tag: "ouranos:skeleton_10"
+  probability: 0.8
+  drops: []
+
+# ------------ #
+#   Economy    #
+# ------------ #
+
+# Economy type (vault or items)
+economy_type: items
+
+# item type to pay (if economy_type is item)
+item_type: emerald
+
+# ------------ #
+#   Villagers  #
+# ------------ #
+
+# Enable or disable villagers dialogs
+# If villagers_dialog is disabled, villagers will be trading stuff instead of displaying dialogs
+villagers_dialog: true
+
+# ------------- #
+#   WorldGuard  #
+# ------------- #
+
+# Worldguard city flags
+worldguard_cities_flags:
+  - "PVP:DENY"
+  - "BUILD:DENY"
+
+# Worldguard village flags
+worldguard_villages_flags:
+  - "PVP:ALLOW"
+  - "BUILD:DENY"
+
+# -------------- #
+#     Areas      #
+# -------------- #
+
+# Change amount of villages / cities / dungeons in areas
+# One area is 500x500 chunks
+
+# Villages
+area_villages: 15
+
+# Cities
+area_cities: 3
+
+# Dungeons
+area_dungeons: 10

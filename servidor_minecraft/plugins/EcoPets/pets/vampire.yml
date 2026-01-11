@@ -1,0 +1,160 @@
+name: "&#850404&lᴠ&#991717&lᴀ&#AE2B2B&lᴍ&#C23E3E&lᴘ&#D65151&lɪ&#EB6565&lʀ&#FF7878&lᴏ"
+description: "&#850404ꜱ&#880707ᴜ&#8B0A0Aʙ&#8E0C0Cᴇ &#941212ᴅ&#971515ᴇ &#9D1B1Bɴ&#A01D1Dɪ&#A32020ᴠ&#A62323ᴇ&#A92626ʟ &#AF2C2Cʀ&#B22E2Eᴇ&#B53131ᴄ&#B83434ɪ&#BB3737ʙ&#BE3A3Aɪ&#C13D3Dᴇ&#C33F3Fɴ&#C64242ᴅ&#C94545ᴏ &#CF4B4Bᴅ&#D24E4Eᴀ&#D55050ñ&#DB5656ᴏ &#E15C5Cᴇ&#E45F5Fɴ &#EA6464ʟ&#ED6767ᴀ &#F36D6Dɴ&#F67070ᴏ&#F97272ᴄ&#FC7575ʜ&#FF7878ᴇ."
+
+entity-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyMGExMGRiMjIyZjY5YWMyMjE1ZDdkMTBkY2E0N2VlYWZhMjE1NTUzNzY0YTJiODFiYWZkNDc5ZTc5MzNkMSJ9fX0="
+icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyMGExMGRiMjIyZjY5YWMyMjE1ZDdkMTBkY2E0N2VlYWZhMjE1NTUzNzY0YTJiODFiYWZkNDc5ZTc5MzNkMSJ9fX0=
+
+level-xp-requirements:
+  - 50
+  - 75
+  - 100
+  - 150
+  - 200
+  - 300
+  - 400
+  - 500
+  - 750
+  - 1000
+  - 1300
+  - 1500
+  - 1750
+  - 2000
+  - 2300
+  - 2500
+  - 3000
+  - 3500
+  - 4000
+  - 4500
+  - 5000
+  - 6000
+  - 8000
+  - 10000
+  - 12000
+  - 15000
+  - 20000
+  - 25000
+  - 30000
+  - 35000
+  - 40000
+  - 44500
+  - 50000
+  - 57000
+  - 64000
+  - 71000
+  - 78000
+  - 80000
+  - 85000
+  - 90000
+  - 95000
+  - 100000
+  - 110000
+  - 115000
+  - 120000
+  - 125000
+  - 150000
+  - 175000
+  - 200000
+
+xp-gain-methods:
+  - id: take_damage
+    multiplier: 10.0
+    conditions:
+      - id: is_night
+
+
+level-placeholders:
+  - id: "lifesteal_chance"
+    value: "%level%"
+  - id: "lifesteal_cooldown"
+    value: "1-(%level%/200)"
+  - id: "lifesteal_heal"
+    value: "%level%/20"
+  - id: "bleed_damage"
+    value: "(%level%-15)/10"
+  - id: "bleed_chance"
+    value: "%level%-10"
+
+effects-description:
+  1:
+    - "&8»  &#ff0000ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ꜱᴏʟᴏ ᴘᴜᴇᴅᴇ ꜱᴜʙɪʀ ᴅᴇ ɴɪᴠᴇʟ ᴅᴜʀᴀɴᴛᴇ ʟᴀ ɴᴏᴄʜᴇ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%lifesteal_chance%% &7ɢᴀɴᴀʀ"
+    - "    &7salud de tu enemigo. ᴛɪᴇɴᴇ ᴜɴ ᴇɴꜰʀɪᴀᴍɪᴇɴᴛᴏ ᴅᴇ &#ff0000%lifesteal_cooldown% &7ꜱᴇɢᴜɴᴅᴏꜱ."
+  25:
+    - "&8» &#ff0000ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ꜱᴏʟᴏ ᴘᴜᴇᴅᴇ ꜱᴜʙɪʀ ᴅᴇ ɴɪᴠᴇʟ ᴅᴜʀᴀɴᴛᴇ ʟᴀ ɴᴏᴄʜᴇ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%lifesteal_chance%% &7ɢᴀɴᴀʀ"
+    - "    &7salud de tu enemigo. ᴛɪᴇɴᴇ ᴜɴ ᴇɴꜰʀɪᴀᴍɪᴇɴᴛᴏ ᴅᴇ &#ff0000%lifesteal_cooldown% &7ꜱᴇɢᴜɴᴅᴏꜱ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%bleed_chance%% &7ᴅᴇ ʜᴀᴄᴇʀ ꜱᴀɴɢʀᴀʀ"
+    - "    &7ᴛᴜꜱ ᴇɴᴇᴍɪɢᴏꜱ ʜᴀᴄɪᴇɴᴅᴏ &#ff0000%bleed_damage%&7 ᴅᴀɴ̃ᴏ ᴅᴏꜱ ᴠᴇᴄᴇꜱ."
+
+rewards-description:
+  1:
+    - "&8» &#ff0000ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ꜱᴏʟᴏ ᴘᴜᴇᴅᴇ ꜱᴜʙɪʀ ᴅᴇ ɴɪᴠᴇʟ ᴅᴜʀᴀɴᴛᴇ ʟᴀ ɴᴏᴄʜᴇ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%lifesteal_chance%% &7ɢᴀɴᴀʀ"
+    - "    &7salud de tu enemigo. ᴛɪᴇɴᴇ ᴜɴ ᴇɴꜰʀɪᴀᴍɪᴇɴᴛᴏ ᴅᴇ &#ff0000%lifesteal_cooldown% &7ꜱᴇɢᴜɴᴅᴏꜱ."
+  25:
+    - "&8» &#ff0000ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ꜱᴏʟᴏ ᴘᴜᴇᴅᴇ ꜱᴜʙɪʀ ᴅᴇ ɴɪᴠᴇʟ ᴅᴜʀᴀɴᴛᴇ ʟᴀ ɴᴏᴄʜᴇ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%lifesteal_chance%% &7ɢᴀɴᴀʀ"
+    - "    &7salud de tu enemigo. ᴛɪᴇɴᴇ ᴜɴ ᴇɴꜰʀɪᴀᴍɪᴇɴᴛᴏ ᴅᴇ &#ff0000%lifesteal_cooldown% &7ꜱᴇɢᴜɴᴅᴏꜱ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%bleed_chance%% &7ᴅᴇ ʜᴀᴄᴇʀ ꜱᴀɴɢʀᴀʀ"
+    - "    &7ᴛᴜꜱ ᴇɴᴇᴍɪɢᴏꜱ ʜᴀᴄɪᴇɴᴅᴏ &#ff0000%bleed_damage%&7 ᴅᴀɴ̃ᴏ ᴅᴏꜱ ᴠᴇᴄᴇꜱ."
+
+level-up-messages:
+  1:
+    - "&8» &#ff0000ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ꜱᴏʟᴏ ᴘᴜᴇᴅᴇ ꜱᴜʙɪʀ ᴅᴇ ɴɪᴠᴇʟ ᴅᴜʀᴀɴᴛᴇ ʟᴀ ɴᴏᴄʜᴇ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%lifesteal_chance%% &7ɢᴀɴᴀʀ"
+    - "    &7salud de tu enemigo. ᴛɪᴇɴᴇ ᴜɴ ᴇɴꜰʀɪᴀᴍɪᴇɴᴛᴏ ᴅᴇ &#ff0000%lifesteal_cooldown% &7ꜱᴇɢᴜɴᴅᴏꜱ."
+  25:
+    - "&8» &#ff0000ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ꜱᴏʟᴏ ᴘᴜᴇᴅᴇ ꜱᴜʙɪʀ ᴅᴇ ɴɪᴠᴇʟ ᴅᴜʀᴀɴᴛᴇ ʟᴀ ɴᴏᴄʜᴇ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%lifesteal_chance%% &7ɢᴀɴᴀʀ"
+    - "    &7salud de tu enemigo. ᴛɪᴇɴᴇ ᴜɴ ᴇɴꜰʀɪᴀᴍɪᴇɴᴛᴏ ᴅᴇ &#ff0000%lifesteal_cooldown% &7ꜱᴇɢᴜɴᴅᴏꜱ."
+    - ""
+    - "&8» &7ᴀʟ ɢᴏʟᴘᴇᴀʀ ᴀ ʟᴏꜱ ᴇɴᴇᴍɪɢᴏꜱ ᴛɪᴇɴᴇꜱ ᴜɴ &#ff0000%bleed_chance%% &7ᴅᴇ ʜᴀᴄᴇʀ ꜱᴀɴɢʀᴀʀ"
+    - "    &7ᴛᴜꜱ ᴇɴᴇᴍɪɢᴏꜱ ʜᴀᴄɪᴇɴᴅᴏ &#ff0000%bleed_damage%&7 ᴅᴀɴ̃ᴏ ᴅᴏꜱ ᴠᴇᴄᴇꜱ."
+
+level-up-effects: [ ]
+
+effects:
+  - id: give_health
+    args:
+      chance: "%level%"
+      cooldown: "1-(%level%/200)"
+      send_cooldown_message: false
+      amount: "%level%/20"
+    triggers:
+      - melee_attack
+
+  - id: bleed
+    args:
+      chance: "%level%-10"
+      damage: "(%level%-15)/10"
+      interval: 15
+      amount: 2
+    conditions:
+      - id: has_pet_level
+        args:
+          pet: vampire
+          level: 25
+    triggers:
+      - melee_attack
+
+conditions: [ ]
+
+spawn-egg:
+  enabled: true
+  item: bat_spawn_egg unbreaking:2 hide_enchants
+  name: "&#850404&lᴠ&#991717&lᴀ&#AE2B2B&lᴍ&#C23E3E&lᴘ&#D65151&lɪ&#EB6565&lʀ&#FF7878&lᴏ"
+  lore:
+    - ""
+    - "&#C23E3Eᴅᴀ ᴄʟɪᴄᴋ ᴅᴇʀᴇᴄʜᴏ ᴘᴀʀᴀ"
+    - "&#C23E3Eᴅᴇꜱʙʟᴏǫᴜᴇᴀʀ ᴀ &#850404&lᴠ&#991717&lᴀ&#AE2B2B&lᴍ&#C23E3E&lᴘ&#D65151&lɪ&#EB6565&lʀ&#FF7878&lᴏ"
+  craftable: false
+  recipe: [ ]
+  recipe-permission: ecopets.craft.vampire

@@ -1,0 +1,70 @@
+9e9c9df8-57aa-3ef3-8bb9-b85629a1c59c:
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:player_head
+  count: 2
+  components:
+    minecraft:profile: '{id:[I;1924397234,-1503317822,-1368225866,-604529304],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NhODI4OGM3MDQxYWFhOWE4OWFiNThkYjg5ZTczNmUxMTQxZjRiNzliYzAwOGViMDYwOTM3NGNmZjg3Mjk1YzAifX19"}]}'
+    minecraft:custom_name: '{extra:["serpent"],text:""}'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:player_head
+  count: 1
+  components:
+    minecraft:profile: '{id:[I;-17337963,-1233634315,-1266824872,276048833],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZkOGExOGRmZjI3YzQ0Nzg4NTkyYTFkNjY1MmU2ZjNhMWNkZjA2NzhhOTBlNzZiNTExZTMyYWFkYTI2N2M4YzkifX19"}]}'
+    minecraft:custom_name: '{extra:["sr-recommendation-cat-with-boots"],text:""}'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:player_head
+  count: 1
+  components:
+    minecraft:profile: '{id:[I;1770047646,1030434895,-1213099839,-1626961562],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMzZmNmZmM2ZGEwNzVlOGU1ZDAwM2I0ODNjMDU4ODY2OTQ1MTBlM2FlNTQ1OTNkZDA2NzAxNzUyMDVhNTUxOWIifX19"}]}'
+    minecraft:custom_name: '{extra:["sr-recommendation-panda"],text:""}'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:player_head
+  count: 1
+  components:
+    minecraft:profile: '{id:[I;2040737061,-81576898,-2111884690,1268730947],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZkOWM3ZGQ1NTFhYzU0NzliYTY3YWNmMzFkMDAyNWNkYjAxYzkxZmI4OTI1MjgzZjg2MjkzMDViM2NmNjBlOGEifX19"}]}'
+    minecraft:custom_name: '{extra:["sr-recommendation-samus"],text:""}'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:player_head
+  count: 1
+  components:
+    minecraft:profile: '{id:[I;1317175113,1517762193,-1815212724,388023648],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5Yzg4ZTE4ZWJjMWE5ZGE4OWUxNDg4MjNhOGViYmYwMWUxZmM2YTlkZjY1MzQ0MjVhMmJkYTNkY2NmMzI1Y2YifX19"}]}'
+    minecraft:custom_name: '{extra:["sr-recommendation-pinguin"],text:""}'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:player_head
+  count: 1
+  components:
+    minecraft:profile: '{id:[I;-1291447975,1019428838,-1335341959,-1338285744],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1N2JiNjg3NTk4ZmM2ZjE0NTdhMTcxOTg1YmJlZjcyZWI1Mzk3YTc3NzYxODBmYTMxMGIwNWNiNGVmMWNhZjcifX19"}]}'
+    minecraft:custom_name: '{extra:["sr-recommendation-chicken-light-blue-sweater"],text:""}'
+  schema_version: 1
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null

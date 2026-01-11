@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.194.149
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1767738698531
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1768093937467
+  login: 1768093859641
+money: '5527000.0'
+last-account-name: apolofs
+lastlocation:
+  world: c5bd5287-79d9-4571-9770-5304fc2929da
+  world-name: minapvp
+  x: 400.1652436021625
+  y: 84.21874366137143
+  z: -38.64124698090296
+  yaw: 102.60040283203125
+  pitch: 29.399965286254883
+logoutlocation:
+  world: 05b1d988-a396-409d-86f4-46818e922cfa
+  world-name: minasranks
+  x: 292.1914799570668
+  y: 78.45910569849345
+  z: 454.040694304577
+  yaw: 100.65866088867188
+  pitch: 36.90007019042969
+last-message-reply-recipient: false

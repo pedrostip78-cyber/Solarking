@@ -1,0 +1,12 @@
+#######################
+#  NPC Configuration  #
+#######################
+
+# npc_name : the displayed name in the world for Jumper npc
+npc_name: "&cJumper"
+
+# inventory_name : the name of the Jumper inventory
+inventory_name: "&cJumper"
+
+# travel_cost : the cost to travel to another destination
+travel_cost: "%distance%/3"

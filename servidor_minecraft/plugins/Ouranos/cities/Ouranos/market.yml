@@ -1,0 +1,24 @@
+# ######################
+# Build Configuration #
+# ######################
+
+# The NPCs and mobs in the build
+
+npcs:
+  npc_10: ouranos:Merchant
+  npc_1: ouranos:Merchant
+  npc_12: ouranos:Merchant
+  npc_11: ouranos:Merchant
+  npc_4: ouranos:Merchant
+  npc_5: ouranos:Merchant
+  npc_2: ouranos:Merchant
+  npc_3: ouranos:Merchant
+  npc_8: ouranos:Merchant
+  npc_9: ouranos:Merchant
+  npc_6: ouranos:Merchant
+  npc_7: ouranos:Merchant
+
+mobs: []
+
+# The probability to place the build in one city
+probability: 1.0

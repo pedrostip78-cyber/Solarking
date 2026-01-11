@@ -1,0 +1,108 @@
+#######################
+#  NPC Configuration  #
+#######################
+
+# npc_name : the displayed name in the world for Merchant npc
+npc_name: "&cMerchant"
+
+# inventory_name : the name of the Merchant inventory
+inventory_name: "&cMerchant"
+
+# shop_items : items sold by the Merchant
+shop_items:
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:STRING"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:CHEST"
+  probability: 0.2
+  price: 20.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:WHITE_WOOL"
+  probability: 0.2
+  price: 20.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:JUKEBOX"
+  probability: 0.2
+  price: 20.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:FURNACE"
+  probability: 0.2
+  price: 20.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:CAULDRON"
+  probability: 0.2
+  price: 40.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:ANVIL"
+  probability: 0.2
+  price: 50.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:CRAFTING_TABLE"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:RED_BED"
+  probability: 0.2
+  price: 40.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:TNT"
+  probability: 0.2
+  price: 80.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:BONE_MEAL"
+  probability: 0.2
+  price: 50.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:BUCKET"
+  probability: 0.2
+  price: 30.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:FLINT_AND_STEEL"
+  probability: 0.2
+  price: 30.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:OAK_BOAT"
+  probability: 0.2
+  price: 20.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:BREAD"
+  probability: 0.2
+  price: 5.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:APPLE"
+  probability: 0.2
+  price: 5.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:COOKIE"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:MUSHROOM_STEW"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:COOKED_CHICKEN"
+  probability: 0.2
+  price: 15.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:WOODEN_SWORD"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:WOODEN_HOE"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:WOODEN_SHOVEL"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:WOODEN_PICKAXE"
+  probability: 0.2
+  price: 10.0
+- ==: ProbabilityMerchantItem
+  item_tag: "ouranos:WOODEN_AXE"
+  probability: 0.2
+  price: 10.0

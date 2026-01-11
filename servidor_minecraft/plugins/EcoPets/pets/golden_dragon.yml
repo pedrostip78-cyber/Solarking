@@ -1,0 +1,152 @@
+spawn-egg:
+  item: blaze_spawn_egg unbreaking:1 hide_enchants
+  lore:
+  - ''
+  - '&8&oPlace on the ground to'
+  - '&8&ounlock the &r&6Tiger&8&o pet!'
+  recipe: []
+  craftable: false
+  enabled: true
+  name: '&6Tiger&f Pet Spawn Egg'
+xp-gain-methods:
+- multiplier: 0.5
+  id: melee_attack
+  conditions:
+  - args:
+      type: coins
+      value: 50
+    id: can_afford_price
+icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU5ZjliMWZjMDE0MTY2Y2I0NmEwOTNlNTM0OWIyYmY2ZWRkMjAxYjY4MGQ2MmU0OGRiZjNhZjliMDQ1OTExNiJ9fX0=
+description: '&8&oLevel up by dealing melee damage'
+effects-description:
+  '1':
+  - '&8» &8Gives a &a+%damage_multiplier%%&8 bonus to'
+  - '   &8melee damage'
+level-commands: []
+level-up-messages:
+  '1':
+  - '&8» &8Gives a &a+%damage_multiplier%%&8 bonus to'
+  - '   &8melee damage'
+level-placeholders:
+- id: damage_multiplier
+  value: '%level%'
+level-xp-requirements:
+- 50
+- 125
+- 200
+- 300
+- 500
+- 750
+- 1000
+- 1500
+- 2000
+- 3500
+- 5000
+- 7500
+- 10000
+- 15000
+- 20000
+- 30000
+- 50000
+- 75000
+- 100000
+- 200000
+- 300000
+- 400000
+- 500000
+- 600000
+- 700000
+- 800000
+- 900000
+- 1000000
+- 1100000
+- 1200000
+- 1300000
+- 1400000
+- 1500000
+- 1600000
+- 1700000
+- 1800000
+- 1900000
+- 2000000
+- 2100000
+- 2200000
+- 2300000
+- 2400000
+- 2500000
+- 2600000
+- 2750000
+- 2900000
+- 3100000
+- 3400000
+- 3700000
+- 4000000
+- 4300000
+- 4600000
+- 4900000
+- 5200000
+- 5500000
+- 5800000
+- 6100000
+- 6400000
+- 6700000
+- 7000000
+- 7300000
+- 7600000
+- 7900000
+- 8200000
+- 8500000
+- 8800000
+- 9200000
+- 9500000
+- 9800000
+- 10100000
+- 10400000
+- 10700000
+- 11000000
+- 11300000
+- 11600000
+- 11900000
+- 12200000
+- 11500000
+- 11800000
+- 12100000
+- 12400000
+- 12700000
+- 13000000
+- 13300000
+- 13600000
+- 13900000
+- 14200000
+- 14500000
+- 14800000
+- 15100000
+- 15400000
+- 15700000
+- 16000000
+- 16300000
+- 16600000
+- 16900000
+- 17200000
+- 17500000
+- 17800000
+- 18100000
+- 18400000
+rewards-description:
+  '1':
+  - '&8» &8Gives a &a+%damage_multiplier%%&8 bonus to'
+  - '   &8melee damage'
+modelengine-animation: fly
+effects:
+- args:
+    multiplier: '%level% * 0.01 + 1'
+  id: damage_multiplier
+  triggers:
+  - melee_attack
+name: '&6Golden Dragon'
+conditions:
+- args:
+    type: coins
+    value: 1000
+  id: can_afford_price
+entity-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU5ZjliMWZjMDE0MTY2Y2I0NmEwOTNlNTM0OWIyYmY2ZWRkMjAxYjY4MGQ2MmU0OGRiZjNhZjliMDQ1OTExNiJ9fX0=

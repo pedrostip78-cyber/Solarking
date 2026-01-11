@@ -1,0 +1,15 @@
+# ######################
+# Build Configuration #
+# ######################
+
+# The NPCs and mobs in the build
+
+npcs:
+  npc_1: ouranos:Jumper
+  npc_2: ouranos:none
+  npc_3: ouranos:none
+
+mobs: []
+
+# The probability to place the build in one city
+probability: 1.0

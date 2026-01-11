@@ -1,0 +1,245 @@
+advancedEffects: []
+advancedLore: []
+sounds:
+  advancedEquip:
+    volume: 1
+    sound: ''
+    pitch: 1
+    enabled: false
+  equip:
+    volume: 1
+    sound: ENTITY_PLAYER_LEVELUP
+    pitch: 1
+    enabled: true
+  unequip:
+    volume: 1
+    sound: ''
+    pitch: 1
+    enabled: false
+helmet:
+  leatherColor: '#a1a89f'
+  advancedEffects: []
+  lore:
+  - '&7Defense: &a+45 &#e884b0🛡'
+  - '&7Health: &c+9 ❤'
+  - ''
+  - '&6&lGOLEM SET BONUS:'
+  - '&8Grants the wearer'
+  - '&8❤ Absorption 3 for 20 seconds'
+  - '&8when they kill an enemy.'
+  - '&8Requires full set to be worn'
+  - ''
+  - '&8This item can be reforged!'
+  - '&9&lRARE HELMET'
+  recipe:
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - air
+  - ecoitems:enchanted_diamond
+  - air
+  - air
+  - air
+  effectiveDurability: 2048
+  item: leather_helmet unbreakable color:#a1a89f hide_dye soulbound:1 HIDE_ATTRIBUTES
+    HIDE_UNBREAKABLE 
+  craftable: false
+  effects:
+  - args:
+      stat: defense
+      amount: 45
+    id: add_stat
+  - args:
+      stat: health
+      amount: 9
+    id: add_stat
+  defaultTier: diamond
+  name: '&9Golem Helmet'
+  advancedName: ''
+  conditions: []
+boots:
+  leatherColor: '#a1a89f'
+  advancedEffects: []
+  lore:
+  - '&7Defense: &a+40 &#e884b0🛡'
+  - '&7Health: &c+8 ❤'
+  - ''
+  - '&6&lGOLEM SET BONUS:'
+  - '&8Grants the wearer'
+  - '&8❤ Absorption 3 for 20 seconds'
+  - '&8when they kill an enemy.'
+  - '&8Requires full set to be worn'
+  - ''
+  - '&8This item can be reforged!'
+  - '&9&lRARE BOOTS'
+  recipe:
+  - ecoitems:enchanted_diamond
+  - air
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - air
+  - ecoitems:enchanted_diamond
+  - air
+  - air
+  - air
+  effectiveDurability: 2048
+  item: leather_boots unbreakable color:#a1a89f hide_dye soulbound:1 HIDE_ATTRIBUTES
+    HIDE_UNBREAKABLE HIDE_ENCHANTS
+  craftable: false
+  effects:
+  - args:
+      stat: defense
+      amount: 40
+    id: add_stat
+  - args:
+      stat: health
+      amount: 8
+    id: add_stat
+  defaultTier: diamond
+  name: '&9Golem Boots'
+  advancedName: ''
+  conditions: []
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  lore:
+  - '&8Drop this onto &cReaper Armor'
+  - '&8to make it <GRADIENT:f12711>Advanced</GRADIENT:f5af19>.'
+  name: <GRADIENT:f12711>Advancement Shard:</GRADIENT:f5af19> &cReaper
+  recipe:
+  - prismarine_shard
+  - ecoarmor:set_reaper_helmet
+  - prismarine_shard
+  - ecoarmor:set_reaper_chestplate
+  - nether_star
+  - ecoarmor:set_reaper_leggings
+  - prismarine_shard
+  - ecoarmor:set_reaper_boots
+  - prismarine_shard
+  craftable: false
+leggings:
+  leatherColor: '#a1a89f'
+  advancedEffects: []
+  lore:
+  - '&7Defense: &a+75 &#e884b0🛡'
+  - '&7Health: &c+11 ❤'
+  - ''
+  - '&6&lGOLEM SET BONUS:'
+  - '&8Grants the wearer'
+  - '&8❤ Absorption 3 for 20 seconds'
+  - '&8when they kill an enemy.'
+  - '&8Requires full set to be worn'
+  - ''
+  - '&8This item can be reforged!'
+  - '&9&lRARE LEGGINGS'
+  recipe:
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - air
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - air
+  - ecoitems:enchanted_diamond
+  effectiveDurability: 2048
+  item: leather_leggings unbreakable color:#a1a89f hide_dye soulbound:1 HIDE_ATTRIBUTES
+    HIDE_UNBREAKABLE HIDE_ENCHANTS
+  craftable: false
+  effects:
+  - args:
+      stat: defense
+      amount: 75
+    id: add_stat
+  - args:
+      stat: health
+      amount: 11
+    id: add_stat
+  defaultTier: diamond
+  name: '&9Golem Leggings'
+  advancedName: ''
+  conditions: []
+effects:
+- args:
+    duration: 200
+    level: 3
+    effect: absorption
+    apply_to_player: true
+  id: potion_effect
+  triggers:
+  - kill
+chestplate:
+  leatherColor: '#a1a89f'
+  advancedEffects: []
+  lore:
+  - '&7Defense: &a+90 &#e884b0🛡'
+  - '&7Health: &c+13 ❤'
+  - ''
+  - '&6&lGOLEM SET BONUS:'
+  - '&8Grants the wearer'
+  - '&8❤ Absorption 3 for 20 seconds'
+  - '&8when they kill an enemy.'
+  - '&8Requires full set to be worn'
+  - ''
+  - '&8This item can be reforged!'
+  - '&9&lRARE CHESTPLATE'
+  recipe:
+  - ecoitems:enchanted_diamond
+  - air
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  effectiveDurability: 2048
+  item: leather_chestplate unbreakable color:#a1a89f hide_dye soulbound:1 HIDE_ATTRIBUTES
+    HIDE_UNBREAKABLE HIDE_ENCHANTS
+  craftable: false
+  effects:
+  - args:
+      stat: defense
+      amount: 90
+    id: add_stat
+  - args:
+      stat: health
+      amount: 13
+    id: add_stat
+  defaultTier: diamond
+  name: '&9Golem Chestplate'
+  advancedName: ''
+  conditions: []
+elytra:
+  advancedEffects: []
+  lore:
+  - '&7Defense: &a+0&#e884b0🛡'
+  - '&7Health: &c+0 ❤'
+  - ''
+  - '&6&lGOLEM SET BONUS:'
+  - '&8Grants the wearer'
+  - '&8❤ Absorption 3 for 20 seconds'
+  - '&8when they kill an enemy.'
+  - '&8Requires full set to be worn'
+  - ''
+  - '&8This item can be reforged!'
+  - '&9&lRARE ELYTRA'
+  recipe:
+  - air
+  - ecoitems:enchanted_diamond
+  - air
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  - ecoitems:enchanted_diamond
+  effectiveDurability: 2048
+  item: elytra unbreakable soulbound:1 HIDE_ATTRIBUTES HIDE_UNBREAKABLE HIDE_ENCHANTS
+  craftable: false
+  effects: []
+  defaultTier: diamond
+  name: '&9Golem Elytra'
+  advancedName: ''
+  conditions: []
+conditions: []
